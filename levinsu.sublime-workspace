@@ -4,20 +4,32 @@
 		"selected_items":
 		[
 			[
+				"fot",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"nav",
+				"nav-list-2"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
 				"li",
 				"list-style-type"
 			],
 			[
 				"min",
 				"min-width"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"t2",
@@ -66,10 +78,6 @@
 			[
 				"in",
 				"inline"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"inline",
@@ -182,10 +190,6 @@
 			[
 				"c",
 				"clearfix"
-			],
-			[
-				"nav",
-				"nav-btn"
 			],
 			[
 				"hea",
@@ -343,24 +347,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3118,
+				"buffer_size": 3496,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/styles.less",
+			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2336,
+				"buffer_size": 2618,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/css/styles.css",
-			"settings":
-			{
-				"buffer_size": 2310,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -484,6 +480,10 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/levinsu/assets/css/reset.css",
+		"/D/xampp/htdocs/levinsu/assets/css/styles.less",
+		"/D/xampp/htdocs/levinsu/assets/css/styles.css",
+		"/D/xampp/apache/conf/httpd.conf",
 		"/D/workspace_git/yecols.cn/assets/css/style.less",
 		"/D/workspace_git/levinsu/index.html",
 		"/D/workspace_git/buaa-rcbd/seminars/5.html",
@@ -607,8 +607,7 @@
 		"/D/Site/xusite/portfolio.html",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Site/xusite/assets/css/reset.css",
-		"/D/Site/xusite/assets/css/style.css"
+		"/D/Site/xusite/assets/css/reset.css"
 	],
 	"find":
 	{
@@ -616,7 +615,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 102.0,
+		"height": 0.0,
 		"where_history":
 		[
 		]
@@ -626,6 +625,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"root",
 			"section-focus",
 			"title1",
 			"0.4",
@@ -737,15 +737,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3118,
+						"buffer_size": 3496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								493,
-								493
+								3101,
+								3101
 							]
 						],
 						"settings":
@@ -758,7 +758,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1386.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -766,23 +766,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "assets/css/styles.less",
+					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2336,
+						"buffer_size": 2618,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								983,
-								983
+								132,
+								132
 							]
 						],
 						"settings":
@@ -792,35 +792,6 @@
 							"synced": false,
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/css/styles.css",
-					"settings":
-					{
-						"buffer_size": 2310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1110,
-								1110
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -859,7 +830,7 @@
 		"cols":
 		[
 			0.0,
-			0.378255602665,
+			0.523969376634,
 			1.0
 		],
 		"rows":
@@ -906,6 +877,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 269.0,
+	"side_bar_width": 152.0,
 	"status_bar_visible": true
 }
