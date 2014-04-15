@@ -1,0 +1,821 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"t2",
+				"t2l"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fade",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"sub",
+				"subText"
+			],
+			[
+				"selec",
+				"selectString"
+			],
+			[
+				"sele",
+				"selectString"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"titl",
+				"title"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"col",
+				"col-xs-4"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"se",
+				"serialize	.serialize()"
+			],
+			[
+				"ba",
+				"background-position-y"
+			],
+			[
+				"contai",
+				"container"
+			],
+			[
+				"clear",
+				"clear"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"tail",
+				"taila"
+			],
+			[
+				"stage",
+				"stage1"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"sta",
+				"stage1"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"c",
+				"clearfix"
+			],
+			[
+				"nav",
+				"nav-btn"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"uni",
+				"union"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"80px",
+				"80px"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"quto",
+				"quto2"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"link",
+				"linkblue"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"backr",
+				"background-position"
+			],
+			[
+				"anima",
+				"animate	animate"
+			],
+			[
+				"y-g",
+				"y-green-2"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"summa",
+				"summary-content"
+			],
+			[
+				"sum",
+				"summary"
+			],
+			[
+				"entry",
+				"entry-title"
+			],
+			[
+				"entry-sum",
+				"entry-summary-header"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"resize",
+				"resize-header"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"y-",
+				"y-green-1"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bod",
+				"border-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"s",
+				"smarty"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"mx",
+				"max-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"lin",
+				"link"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"lati",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"latex",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"prefixe",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"tih",
+				"Tidy HTML"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package contr",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/workspace_git/levinsu/index.html",
+		"/D/workspace_git/buaa-rcbd/seminars/5.html",
+		"/C/Users/Yecol/Desktop/wenfei/unfinished.txt",
+		"/C/Users/Yecol/Desktop/wenfei/wenfei-2006-2014.bib",
+		"/C/Users/Yecol/Desktop/wenfei/wenfei-2000-2010.bib",
+		"/C/Users/Yecol/Desktop/wenfei/wenfei-2000.bib",
+		"/D/skydrive/GoodReader/国师帮帮忙.txt",
+		"/C/Users/Yecol/Desktop/wenfei-2000.bib",
+		"/C/Users/Yecol/Desktop/wenfei.bib",
+		"/D/workspace_svn/icde-2014/paper/sec-model.tex",
+		"/D/workspace_svn/icde-2014/paper/sec-relative.tex",
+		"/D/workspace_svn/icde-2014/paper/sec-intro.tex",
+		"/D/workspace_svn/icde-2014/paper/sec-related.tex",
+		"/D/workspace_git/tingdeng/index.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Yecol/Desktop/新建文件夹/sec-algorithm.tex",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/D/workspace_svn/icde-2014/paper/paper.tex",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/D/workspace_svn/icde-2014/paper/sec-algorithm.tex",
+		"/D/workspace_git/python-test/documents.py",
+		"/D/workspace_git/python-test/hello.py",
+		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
+		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/union.html",
+		"/D/workspace_git/baidu-charity/index.html",
+		"/C/Users/Yecol/Desktop/baidu-charity-v1.32/baidu-charity-v1.32/index.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/style.css",
+		"/D/workspace_git/baidu-charity/static/assets/css/style1.css",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/style1.css",
+		"/C/Users/LEIXUJUN/Desktop/baidu-charity-v1.27/baidu-charity-v1.27/static/assets/css/style.css",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/index.html",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/focus.html",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/img/btn-hover.png",
+		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/sftp-config.json",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/form.css",
+		"/D/workspace_git/rcbd/Index_V3.css",
+		"/D/workspace_git/baidu-charity/style.css",
+		"/D/workspace_git/baidu-charity/index1.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/form1.css",
+		"/D/workspace_git/baidu-charity/sftp-config.json",
+		"/D/workspace_git/baidu-charity/static/assets/js/system/system.js",
+		"/D/workspace_git/baidu-charity/static/assets/js/system/validate.js",
+		"/D/workspace_git/baidu-charity/assets/css/style.less",
+		"/D/workspace_git/baidu-charity/assets/css/style.css",
+		"/D/workspace_git/baidu-charity/assets/css/form.css",
+		"/D/workspace_git/baidu-charity/country.json",
+		"/D/workspace_git/baidu-charity/city.json",
+		"/C/Users/Yecol/Documents/Tencent Files/148269281/FileRecv/js/system.js",
+		"/D/workspace_git/baidu-charity/pros.json",
+		"/D/workspace_git/baidu-charity/pros.html",
+		"/D/workspace_git/baidu-charity/assets/css/effect.css",
+		"/D/workspace_git/rcbd/BDA.html",
+		"/D/skydrive/GoodReader/spank/lust/荒村恶童.txt",
+		"/C/Users/Yecol/Desktop/bootstrap.css",
+		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+		"/D/workspace_git/baidu-charity-1107/assets/css/style.css",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/D/workspace_git/baidu-charity/assets/css/reset.css",
+		"/D/workspace_git/yecols.cn/assets/css/style.less",
+		"/D/workspace_git/yecols.cn/sftp-config.json",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
+		"/D/workspace_git/yecols.cn/photos/landscape.php",
+		"/D/workspace_git/yecols.cn/photos/portraits.php",
+		"/D/workspace_git/yecols.cn/photos/life-beijing.php",
+		"/D/workspace_git/yecols.cn/photos/animal-plant.php",
+		"/D/workspace_git/yecols.cn/about/index.php",
+		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
+		"/D/workspace_git/yecols.cn/photos/index.php",
+		"/D/workspace_git/yecols.cn/photos/travel-japan.php",
+		"/D/workspace_git/yecols.cn/photos/travel-taiwan.php",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
+		"/D/workspace_git/yecols.cn/rebuild.html",
+		"/D/workspace_git/yecols.cn/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/albums.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/assets/css/reset.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates_c/6cbe0f031a98a137bf5a086f6fda6d2ec87942fd.file.portfolio.tpl.cache.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content-category.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/header.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/search.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/404.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/languages/twentytwelve.pot",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-bali.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/hello.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/hello.php",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.less",
+		"/D/Site/yecols.cn/portfolio.php",
+		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
+		"/D/Site/yecols.cn/portfolio.html",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/D/Site/xusite/sftp-config.json",
+		"/D/Site/xusite/portfolio.html",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Site/xusite/assets/css/reset.css",
+		"/D/Site/xusite/assets/css/style.css"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"section-focus",
+			"title1",
+			"0.4",
+			"container",
+			"title1",
+			"&",
+			"TODO",
+			"&",
+			"scroll",
+			"cc4",
+			"23",
+			"&",
+			"each",
+			"tag",
+			"f24",
+			"quto1.png",
+			"quto.png",
+			"title1",
+			"title2",
+			"inline-block",
+			"form",
+			"/static",
+			"*wi",
+			"form",
+			"inline-block",
+			"inline",
+			"0px",
+			"background-position-x",
+			"background-position",
+			"background",
+			"form",
+			"parse",
+			"fposito",
+			"union",
+			"tag",
+			"ib2",
+			";\n",
+			"font-family",
+			"border",
+			"btn",
+			"h1",
+			"title1",
+			"title",
+			"20px",
+			"inline",
+			"inline-block",
+			"inline",
+			"in-line",
+			"border-bottom-left",
+			"radiu",
+			"border-radiu",
+			"hidden",
+			"clear",
+			"font-family",
+			"font",
+			"summary-content",
+			"footer",
+			"link_page",
+			"link-page",
+			"article",
+			"entry-header",
+			"header",
+			"body",
+			"a",
+			"header",
+			"button",
+			"page",
+			".entry-content p",
+			".entry-content p, .entry-summary p, .comment-content p, .mu_register p",
+			"body p",
+			"font-family",
+			"site-content",
+			"content",
+			"hr",
+			"../res",
+			"\"./res",
+			"./res/",
+			"./res",
+			"image",
+			"a-001",
+			"{\n",
+			"text-align: center;\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/res",
+			"\"../res",
+			"../res/",
+			"../res"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"output.git":
+	{
+		"height": 161.0
+	},
+	"output.sftp":
+	{
+		"height": 152.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true
+}
