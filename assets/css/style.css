@@ -1,0 +1,15 @@
+@import "reset.css";
+html{font-family:Verdana;font-size:12px}
+a,a:hover,a:active{color:#000;text-decoration:none}
+nav .help-nav-hover{opacity:1}nav .help-nav-hover li{height:36px;overflow:visible;padding:0}
+nav .help-nav-hover li:first-of-type{height:50px}
+nav .nav-list{margin:60px auto auto 60px}nav .nav-list li{margin:5px 0 0 5px}
+nav .nav-list-2{display:none;margin:0 auto auto 20px}nav .nav-list-2 li{margin:2px 0 0 2px}
+nav .site-nav-logo{color:#fff;position:fixed;top:10px;left:10px;z-index:700;background-image:url("../img/logo.png");height:44px;width:44px;display:block;text-align:center;border:0;filter:alpha(opacity=100);-khtml-opacity:1;-moz-opacity:1;opacity:1;-webkit-transition:top .2s linear,left .2s linear,opacity .2s linear;-moz-transition:top .2s linear,left .2s linear,opacity .2s linear;-ms-transition:top .2s linear,left .2s linear,opacity .2s linear;-o-transition:top .2s linear,left .2s linear,opacity .2s linear;transition:top .2s linear,left .2s linear,opacity .2s linear}
+nav .site-nav-logo:hover+div.nav-list-container ul{opacity:1}nav .site-nav-logo:hover+div.nav-list-container ul li{height:36px;overflow:visible;padding:0}
+nav .site-nav-logo:hover+div.nav-list-container ul li:first-of-type{height:50px}
+nav .nav-list-2 ul:hover{opacity:1}nav .nav-list-2 ul:hover li{height:36px;overflow:visible;padding:0}
+nav .nav-list-2 ul:hover li:first-of-type{height:50px}
+nav .nav-list-2 ul{list-style-type:none;position:fixed;z-index:600;top:10px;left:10px;opacity:0;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;-webkit-transition:opacity .25s ease .1s;-moz-transition:opacity .25s ease .1s;-o-transition:opacity .25s ease .1s;-ms-transition:opacity .25s ease .1s;transition:opacity .25s ease .1s}nav .nav-list-2 ul li{height:20px;width:100px;overflow:hidden;padding:0;text-align:left;-webkit-transition:height .25s ease .1s;-moz-transition:height .25s ease .1s;-o-transition:height .25s ease .1s;-ms-transition:height .25s ease .1s;transition:height .25s ease .1s}nav .nav-list-2 ul li a{display:block;padding:4px 0 4px 20px;line-height:24px;text-decoration:none;font-size:14px;color:#f3f3f3;text-shadow:1px 1px 1px rgba(0,0,0,0.6);-webkit-transition:color .2s ease-in-out;-moz-transition:color .2s ease-in-out;-o-transition:color .2s ease-in-out;-ms-transition:color .2s ease-in-out;transition:color .2s ease-in-out;border-bottom:1px solid #000}
+nav .nav-list-2 ul li:first-child a{border:0}
+nav .nav-list-2 ul li:last-child a{border:0}

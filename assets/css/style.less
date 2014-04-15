@@ -1,5 +1,15 @@
 @import "reset.css";
 
+html{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+a,a:hover,a:active{
+	color: black;
+	text-decoration: none;
+}
+
 //nav
 nav{
 
@@ -8,7 +18,6 @@ nav{
 	.help-nav-hover{
 
 		opacity: 1;
-
 		li{
 			height: 36px;
  			overflow: visible;
@@ -17,6 +26,20 @@ nav{
 
 		li:first-of-type{
 			height: 50px;
+		}
+	}
+
+	.nav-list{
+		margin: 60px auto auto 60px;
+		li{
+			margin: 5px 0 0 5px;
+		}
+	}
+	.nav-list-2{
+		display: none;
+		margin: 0px auto auto 20px;
+		li{
+			margin: 2px 0 0 2px;
 		}
 	}
 
@@ -47,14 +70,14 @@ nav{
 		.help-nav-hover;
 	}
 
-	.nav-list-container{
+	.nav-list-2{
 
 		ul:hover{
-
 			.help-nav-hover;
 		}
 	
 		ul{
+			list-style-type: none;
 			position: fixed;
 			z-index: 600;
 			top: 10px;
@@ -70,6 +93,7 @@ nav{
  			transition: opacity .25s ease .1s;
 
  			li{
+
  				a{
  					display: block;
 					padding: 4px 0 4px 20px;

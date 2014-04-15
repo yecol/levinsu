@@ -9,35 +9,77 @@
 	</head>
 	<body>
 		<nav class="site-nav" tabindex="-1">
-			<button class="site-nav-logo" data-action="open-nav"><span class="reader-text">HOME</span></button>
-			<div class="nav-list-container">
+			<button class="site-nav-logo" data-action="open-nav"><span class="reader-text">NAV</span></button>
 				<ul class="nav-list">
 					<li class="nav-list-item">
-						<a href="#"><span class="reader-text">Navigation</span></a>
+						<a class="l1-a" href="#">Photos</a>
+                        <ul class="nav-list-2">
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                        </ul>
 					</li>
 					<li class="nav-list-item">
-						<a href="/photos/">Photos</a>
+						<a class="l1-a" href="#">Blog</a>
+                        <ul class="nav-list-2">
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                        </ul>
 					</li>
 					<li class="nav-list-item">
-						<a href="/blog/">Blog</a>
+						<a class="l1-a" href="#">Portfolio</a>
+                        <ul class="nav-list-2">
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                        </ul>
 					</li>
 					<li class="nav-list-item">
-						<a href="/portfolio/">Portfolio</a>
+						<a class="l1-a" href="#">Lab</a>
+                        <ul class="nav-list-2">
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                        </ul>
 					</li>
 					<li class="nav-list-item">
-						<a href="/lab/">Lab</a>
-					</li>
-					<li class="nav-list-item">
-						<a href="/about/">About</a>
+						<a class="l1-a" href="#">About</a>
+                        <ul class="nav-list-2">
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                            <li><a href="#">level-2</a></li>
+                        </ul>
 					</li>
 				</ul>
-			</div>
 		</nav>
   	</section><!-- #photos-album -->
 </div>
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
+<script type="text/javascript" src="/assets/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("a.l1-a").click(function(event) {
+        /* Act on the event */
+        $('ul.nav-list-2').hide();
+        $(this).siblings('ul.nav-list-2').show();
+    });
+});
+</script>
+
+
 	</body>
 </html>
 <!-- ====================================END OF FOOTERFILE====================================
