@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
 				"fot",
 				"font-size"
 			],
@@ -12,16 +20,8 @@
 				"text-decoration"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"nav",
 				"nav-list-2"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"li",
@@ -347,7 +347,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3496,
+				"buffer_size": 4423,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,7 +355,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2618,
+				"buffer_size": 1896,
 				"line_ending": "Windows"
 			}
 		}
@@ -480,6 +480,7 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_svn/icde-2014/paper/sec-algorithm.tex",
 		"/D/xampp/htdocs/levinsu/assets/css/reset.css",
 		"/D/xampp/htdocs/levinsu/assets/css/styles.less",
 		"/D/xampp/htdocs/levinsu/assets/css/styles.css",
@@ -504,7 +505,6 @@
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/D/workspace_svn/icde-2014/paper/paper.tex",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
-		"/D/workspace_svn/icde-2014/paper/sec-algorithm.tex",
 		"/D/workspace_git/python-test/documents.py",
 		"/D/workspace_git/python-test/hello.py",
 		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
@@ -625,6 +625,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"level-2",
 			"root",
 			"section-focus",
 			"title1",
@@ -715,6 +716,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"SECOND TITLE",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -737,15 +739,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3496,
+						"buffer_size": 4423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3101,
-								3101
+								4087,
+								4087
 							]
 						],
 						"settings":
@@ -758,7 +760,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1386.0,
+						"translation.y": 1276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -774,15 +776,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2618,
+						"buffer_size": 1896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								943,
+								943
 							]
 						],
 						"settings":
@@ -794,7 +796,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -830,7 +832,7 @@
 		"cols":
 		[
 			0.0,
-			0.523969376634,
+			0.871364013103,
 			1.0
 		],
 		"rows":
