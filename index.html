@@ -73,6 +73,43 @@
                 </li>
 			</ul>
 		</nav>
+
+        <div class="diary-nav">
+            <div class="diary-arrow arrow-up"></div>
+            <div class="diary-content">
+                <ul>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                </ul>
+            </div>
+            <div class="diary-arrow arrow-down"></div>
+        </div>
     <section class="full-page">
         <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
@@ -96,6 +133,32 @@ $(document).ready(function(){
         $('ul.nav-list-2').hide();
         $(this).siblings('ul.nav-list-2').show();
     });
+
+    var speed = 300;
+    var timeID; 
+    $("div.arrow-down").hover(function(){
+        timeID =  setInterval(function(){
+            $(".diary-content ul").animate({
+                "margin-top": "-=20px"
+            }, speed, "linear");
+        },0);
+    },function(){
+        $(".diary-content ul").stop(true);
+        clearInterval(timeID);
+    }
+    );
+
+    $("div.arrow-up").hover(function(){
+        timeID =  setInterval(function(){
+            $(".diary-content ul").animate({
+                "margin-top":"+=20px"
+            }, speed, "linear");
+        },0);
+    },function(){
+        $(".diary-content ul").stop(true);
+        clearInterval(timeID);
+    }
+    );
 });
 </script>
 

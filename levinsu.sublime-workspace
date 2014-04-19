@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align"
+			],
+			[
+				"arrow",
+				"arrow-up"
+			],
+			[
+				"time",
+				"timespan"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"mar",
 				"margin-bottom"
 			],
@@ -16,16 +40,8 @@
 				"font-size"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"nav",
 				"nav-list-2"
-			],
-			[
-				"li",
-				"list-style-type"
 			],
 			[
 				"min",
@@ -332,10 +348,6 @@
 				"max-height"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"lin",
 				"link"
 			]
@@ -347,7 +359,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4423,
+				"buffer_size": 6870,
 				"line_ending": "Windows"
 			}
 		},
@@ -355,7 +367,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 1896,
+				"buffer_size": 2981,
 				"line_ending": "Windows"
 			}
 		}
@@ -739,15 +751,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4423,
+						"buffer_size": 6870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4087,
-								4087
+								6552,
+								6552
 							]
 						],
 						"settings":
@@ -760,7 +772,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1276.0,
+						"translation.y": 2973.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -776,15 +788,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 1896,
+						"buffer_size": 2981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								943,
-								943
+								2907,
+								2907
 							]
 						],
 						"settings":
@@ -796,7 +808,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 396.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -832,7 +844,7 @@
 		"cols":
 		[
 			0.0,
-			0.871364013103,
+			0.614819510485,
 			1.0
 		],
 		"rows":
