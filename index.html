@@ -6,10 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title>Levinsu.com</title>
 		<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+
 	</head>
 	<body>
+        <div class="site-logo">MO</div>
+
 		<nav class="site-nav" tabindex="-1">
-			<div class="site-logo">MO</div>
 			<ul class="nav-list">
 				<li class="nav-list-item">
 					<a class="l1-a" href="#">DIARY</a>
@@ -71,6 +78,12 @@
                         <li><a href="#">SECOND TITLE</a></li>
                     </ul>
                 </li>
+                <li class="bio-item">
+                    <a href="#">BIO</a>
+                </li>
+                <li class="contact-item">
+                    <a href="#">CONTACT</a>
+                </li>
 			</ul>
 		</nav>
 
@@ -110,13 +123,13 @@
             </div>
             <div class="diary-arrow arrow-down"></div>
         </div>
-    <section class="full-page">
+<!--     <section class="full-page">
         <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/3.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/4.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/5.jpg" />
-    </section>
+    </section> -->
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
@@ -130,8 +143,8 @@ $(document).ready(function(){
 
     $("a.l1-a").click(function(event) {
         /* Act on the event */
-        $('ul.nav-list-2').hide();
-        $(this).siblings('ul.nav-list-2').show();
+        $('ul.nav-list-2').hide(500);
+        $(this).siblings('ul.nav-list-2').show(500);
     });
 
     var speed = 300;
@@ -151,8 +164,9 @@ $(document).ready(function(){
     $("div.arrow-up").hover(function(){
         timeID =  setInterval(function(){
             $(".diary-content ul").animate({
-                "margin-top":"+=20px"
+                "margin-top":(parseInt($(".diary-content ul").css('margin-top'))>0)?"0px":"+=20px"
             }, speed, "linear");
+            console.log(parseInt($(".diary-content ul").css('margin-top'))>0?"0px":"+=20px");
         },0);
     },function(){
         $(".diary-content ul").stop(true);
