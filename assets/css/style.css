@@ -1,11 +1,121 @@
 @import "reset.css";
-@font-face{font-family:'helvetica-thin';src:url('helvetica-neue-thin-webfont.eot');src:url('helvetica-neue-thin-webfont.eot?#iefix') format('embedded-opentype'),url('helvetica-neue-thin-webfont.woff') format('woff'),url('helvetica-neue-thin-webfont.ttf') format('truetype'),url('helvetica-neue-thin-webfont.svg#helveticaneuethin') format('svg');font-weight:normal;font-style:normal}@font-face{font-family:'helvetica-bold';src:url('helvetica-neue-bold-webfont.eot');src:url('helvetica-neue-bold-webfont.eot?#iefix') format('embedded-opentype'),url('helvetica-neue-bold-webfont.woff') format('woff'),url('helvetica-neue-bold-webfont.ttf') format('truetype'),url('helvetica-neue-bold-webfont.svg#-bold') format('svg');font-weight:normal;font-style:normal}html{font-family:"helvetica-thin",helvetica;font-size:12px;background-color:#000}
-a,a:hover,a:active{color:#fff;text-decoration:none}
-.site-logo{top:80px;left:60px;color:#fff;font-family:"helvetica-bold";position:fixed;z-index:700;display:block;text-align:center;border:0;font-size:30px}
-nav{position:fixed;top:80px;left:60px}nav .nav-list{margin:100px auto auto 0}nav .nav-list li{margin:13px 0 0 0;letter-spacing:1px}nav .nav-list li.bio-item{margin-top:68px}
-nav .nav-list li.bio-item,nav .nav-list li.contact-item{font-size:10px}
-nav ul.nav-list-2{display:none;position:10px 0 0 20px;list-style-type:none;z-index:600}nav ul.nav-list-2 li{margin:2px 0 0 2px;height:20px;width:200px;overflow:hidden;padding:0;text-align:left}nav ul.nav-list-2 li a{display:block;padding:4px 0 4px 20px;line-height:20px;text-decoration:none;font-size:14px;text-shadow:1px 1px 1px rgba(0,0,0,0.6)}
-section.full-page{width:100%}section.full-page img{width:100%;margin-bottom:80px}
-.diary-nav{width:200px;height:400px;position:fixed;top:80px;right:80px}.diary-nav div.diary-arrow{width:100%;height:40px;cursor:pointer}.diary-nav div.diary-arrow.arrow-up{background:url("../img/up.png") 187px 33px no-repeat}
-.diary-nav div.diary-arrow.arrow-down{background:url("../img/down.png") 187px 0 no-repeat}
-.diary-nav div.diary-content{width:100%;height:360px;overflow:hidden;background:url("../img/line.png") 191px 0 repeat-y}.diary-nav div.diary-content ul{list-style-type:none}.diary-nav div.diary-content ul li{text-align:right;padding-right:20px;height:30px}.diary-nav div.diary-content ul li a{line-height:14px}
+@font-face {
+  font-family: 'helvetica-thin';
+  src: url('helvetica-neue-thin-webfont.eot');
+  src: url('helvetica-neue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('helvetica-neue-thin-webfont.woff') format('woff'), url('helvetica-neue-thin-webfont.ttf') format('truetype'), url('helvetica-neue-thin-webfont.svg#helveticaneuethin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'helvetica-bold';
+  src: url('helvetica-neue-bold-webfont.eot');
+  src: url('helvetica-neue-bold-webfont.eot?#iefix') format('embedded-opentype'), url('helvetica-neue-bold-webfont.woff') format('woff'), url('helvetica-neue-bold-webfont.ttf') format('truetype'), url('helvetica-neue-bold-webfont.svg#-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-family: "helvetica-thin", helvetica;
+  font-size: 12px;
+  background-color: black;
+}
+a,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
+}
+.site-logo {
+  top: 80px;
+  left: 60px;
+  color: white;
+  font-family: "helvetica-bold";
+  position: fixed;
+  z-index: 700;
+  display: block;
+  text-align: center;
+  border: 0;
+  font-size: 30px;
+}
+nav {
+  position: fixed;
+  top: 80px;
+  left: 60px;
+}
+nav .nav-list {
+  margin: 100px auto auto 0;
+}
+nav .nav-list li {
+  margin: 13px 0 0 0;
+  letter-spacing: 1px;
+}
+nav .nav-list li.bio-item {
+  margin-top: 68px;
+}
+nav .nav-list li.bio-item,
+nav .nav-list li.contact-item {
+  font-size: 10px;
+}
+nav ul.nav-list-2 {
+  display: none;
+  position: 10px 0 0 20px;
+  list-style-type: none;
+  z-index: 600;
+}
+nav ul.nav-list-2 li {
+  margin: 2px 0 0 2px;
+  height: 20px;
+  width: 200px;
+  overflow: hidden;
+  padding: 0;
+  text-align: left;
+}
+nav ul.nav-list-2 li a {
+  display: block;
+  padding: 4px 0 4px 20px;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+section.full-page {
+  width: 100%;
+}
+section.full-page img {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.diary-nav {
+  width: 200px;
+  height: 400px;
+  position: fixed;
+  top: 80px;
+  right: 80px;
+}
+.diary-nav div.diary-arrow {
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+}
+.diary-nav div.diary-arrow.arrow-up {
+  background: url("../img/up.png") 187px 33px no-repeat;
+}
+.diary-nav div.diary-arrow.arrow-down {
+  background: url("../img/down.png") 187px 0 no-repeat;
+}
+.diary-nav div.diary-content {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  background: url("../img/line.png") 191px 0 repeat-y;
+}
+.diary-nav div.diary-content ul {
+  list-style-type: none;
+}
+.diary-nav div.diary-content ul li {
+  text-align: right;
+  padding-right: 20px;
+  height: 30px;
+}
+.diary-nav div.diary-content ul li a {
+  line-height: 14px;
+}

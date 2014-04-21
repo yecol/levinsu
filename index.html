@@ -106,19 +106,7 @@
                     <li><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
+
                 </ul>
             </div>
             <div class="diary-arrow arrow-down"></div>
@@ -151,9 +139,14 @@ $(document).ready(function(){
     var timeID; 
     $("div.arrow-down").hover(function(){
         timeID =  setInterval(function(){
-            $(".diary-content ul").animate({
-                "margin-top": "-=20px"
-            }, speed, "linear");
+            if (parseInt($(".diary-content ul").css('margin-top'))<parseInt($(".diary-content").css("height"))-parseInt($(".diary-content ul").css("height"))){
+               $(".diary-content ul").stop(true); 
+            }
+            else{
+                $(".diary-content ul").animate({
+                    "margin-top": "-=20px"
+                }, speed, "linear");
+            }
         },0);
     },function(){
         $(".diary-content ul").stop(true);
@@ -163,10 +156,14 @@ $(document).ready(function(){
 
     $("div.arrow-up").hover(function(){
         timeID =  setInterval(function(){
-            $(".diary-content ul").animate({
-                "margin-top":(parseInt($(".diary-content ul").css('margin-top'))>0)?"0px":"+=20px"
-            }, speed, "linear");
-            console.log(parseInt($(".diary-content ul").css('margin-top'))>0?"0px":"+=20px");
+            if (parseInt($(".diary-content ul").css('margin-top'))>0){
+               $(".diary-content ul").stop(true); 
+            }
+            else{
+                $(".diary-content ul").animate({
+                    "margin-top":"+=20px"
+                }, speed, "linear");
+            }
         },0);
     },function(){
         $(".diary-content ul").stop(true);
