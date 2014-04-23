@@ -91,7 +91,7 @@ section.full-page img {
   height: 400px;
   position: fixed;
   top: 130px;
-  right: 80px;
+  right: 60px;
 }
 .diary-nav div.diary-arrow {
   width: 100%;
@@ -99,7 +99,7 @@ section.full-page img {
   cursor: pointer;
 }
 .diary-nav div.diary-arrow.arrow-up {
-  background: url("../img/up.png") 184px 29px no-repeat;
+  background: url("../img/up.png") 184px 31px no-repeat;
 }
 .diary-nav div.diary-arrow.arrow-down {
   background: url("../img/down.png") 184px 0 no-repeat;
