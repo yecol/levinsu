@@ -106,7 +106,7 @@ section.full-page img {
 }
 .diary-nav div.diary-content {
   width: 100%;
-  height: 200px;
+  height: 199px;
   overflow: hidden;
   background: url("../img/line.png") 191px 0 repeat-y;
   margin: 4px 0 4px 0;
