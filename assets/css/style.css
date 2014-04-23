@@ -99,10 +99,10 @@ section.full-page img {
   cursor: pointer;
 }
 .diary-nav div.diary-arrow.arrow-up {
-  background: url("../img/up.png") 182px 29px no-repeat;
+  background: url("../img/up.png") 184px 29px no-repeat;
 }
 .diary-nav div.diary-arrow.arrow-down {
-  background: url("../img/down.png") 182px 0 no-repeat;
+  background: url("../img/down.png") 184px 0 no-repeat;
 }
 .diary-nav div.diary-content {
   width: 100%;
