@@ -95,14 +95,14 @@ section.full-page img {
 }
 .diary-nav div.diary-arrow {
   width: 100%;
-  height: 40px;
+  height: 38px;
   cursor: pointer;
 }
 .diary-nav div.diary-arrow.arrow-up {
-  background: url("../img/up.png") 187px 33px no-repeat;
+  background: url("../img/up.png") 182px 29px no-repeat;
 }
 .diary-nav div.diary-arrow.arrow-down {
-  background: url("../img/down.png") 187px 0 no-repeat;
+  background: url("../img/down.png") 182px 0 no-repeat;
 }
 .diary-nav div.diary-content {
   width: 100%;
@@ -115,6 +115,7 @@ section.full-page img {
   list-style-type: none;
 }
 .diary-nav div.diary-content ul li {
+  background: url("../img/point.png") 188px 0 no-repeat;
   text-align: right;
   padding-right: 20px;
   height: 30px;
