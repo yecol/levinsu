@@ -91,14 +91,14 @@
             <div class="diary-arrow arrow-up"></div>
             <div class="diary-content">
                 <ul>
+                    <li style="margin-top:20px;"><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li style="margin-top:80px;"><a href="#">APRIL 14</a></li>
+                    <li><a href="#">APRIL 14</a></li>
+                    <li style="margin-top:40px;"><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
+                    <li style="margin-top:30px;"><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
                     <li><a href="#">APRIL 14</a></li>
@@ -131,8 +131,11 @@ $(document).ready(function(){
 
     $("a.l1-a").click(function(event) {
         /* Act on the event */
+        if($(this).siblings('ul.nav-list-2').is(':visible'))
+            return;
         $('ul.nav-list-2').hide(500);
         $(this).siblings('ul.nav-list-2').show(500);
+        event.preventDefault();
     });
 
     var speed = 300;

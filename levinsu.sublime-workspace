@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"si",
+				"siblings	.siblings()"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -26,14 +46,6 @@
 			[
 				"bac",
 				"background-color"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"fot",
@@ -74,10 +86,6 @@
 			[
 				"sele",
 				"selectString"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"titl",
@@ -240,10 +248,6 @@
 				"padding-top"
 			],
 			[
-				"f",
-				"float"
-			],
-			[
 				"border-bo",
 				"border-bottom"
 			],
@@ -359,7 +363,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6870,
+				"buffer_size": 7108,
 				"line_ending": "Windows"
 			}
 		},
@@ -367,7 +371,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2981,
+				"buffer_size": 2671,
 				"line_ending": "Windows"
 			}
 		}
@@ -492,6 +496,10 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/Work/Survey/assignment_3.tex",
+		"/D/Dropbox/Work/Survey/bare_conf.tex",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/D/downloads/webfontkit-20140420-043755/stylesheet.css",
 		"/D/workspace_svn/icde-2014/paper/sec-algorithm.tex",
 		"/D/xampp/htdocs/levinsu/assets/css/reset.css",
 		"/D/xampp/htdocs/levinsu/assets/css/styles.less",
@@ -555,7 +563,6 @@
 		"/C/Users/Yecol/Desktop/bootstrap.css",
 		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
 		"/D/workspace_git/baidu-charity-1107/assets/css/style.css",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/D/workspace_git/baidu-charity/assets/css/reset.css",
 		"/D/workspace_git/yecols.cn/sftp-config.json",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
@@ -616,10 +623,7 @@
 		"/D/Site/yecols.cn/portfolio.html",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/D/Site/xusite/sftp-config.json",
-		"/D/Site/xusite/portfolio.html",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/D/Site/xusite/assets/css/reset.css"
+		"/D/Site/xusite/portfolio.html"
 	],
 	"find":
 	{
@@ -637,6 +641,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"14",
 			"level-2",
 			"root",
 			"section-focus",
@@ -751,15 +756,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6870,
+						"buffer_size": 7108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6552,
-								6552
+								2020,
+								2020
 							]
 						],
 						"settings":
@@ -772,7 +777,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2995.0,
+						"translation.y": 902.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -788,15 +793,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2981,
+						"buffer_size": 2671,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2907,
-								2907
+								1809,
+								1809
 							]
 						],
 						"settings":
@@ -808,7 +813,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 924.0,
+						"translation.y": 1501.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -844,7 +849,7 @@
 		"cols":
 		[
 			0.0,
-			0.614819510485,
+			0.464218450167,
 			1.0
 		],
 		"rows":
