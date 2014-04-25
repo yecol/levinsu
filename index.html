@@ -20,13 +20,6 @@
 			<ul class="nav-list">
 				<li class="nav-list-item">
 					<a class="l1-a" href="#">DIARY</a>
-                    <ul class="nav-list-2">
-                        <li><a href="#">SECOND TITLE</a></li>
-                        <li><a href="#">SECOND TITLE</a></li>
-                        <li><a href="#">SECOND TITLE</a></li>
-                        <li><a href="#">SECOND TITLE</a></li>
-                        <li><a href="#">SECOND TITLE</a></li>
-                    </ul>
 				</li>
 				<li class="nav-list-item">
 					<a class="l1-a" href="#">PORTRAIT</a>
@@ -121,22 +114,30 @@
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
-<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     $("img").lazyload({
       threshold : 400
     });
 
-    $("a.l1-a").click(function(event) {
-        /* Act on the event */
-        if($(this).siblings('ul.nav-list-2').is(':visible'))
-            return;
-        $('ul.nav-list-2').hide(500);
-        $(this).siblings('ul.nav-list-2').show(500);
-        event.preventDefault();
+    $('.nav-list').accordion({
+        handle: ".l1-a", // Default: "h3"
+        panel: ".nav-list-2", // Default: ".panel"
+        speed: 500, // Default: 200
+        easing: "easeInOutQuad", // Default "swing"
+        canOpenMultiple: false, // Default: false
+        canToggle: false, // Default: false
+        activeClassPanel: "open", // Default: "open"
+        activeClassLi: "active", // Default: "active"
+        lockedClass: "locked", // Default: "locked"
+        loadingClass: "loading" // Default: "loading"
     });
+
 
     var speed = 300;
     var timeID; 

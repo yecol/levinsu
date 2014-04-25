@@ -57,7 +57,7 @@ nav .nav-list li.contact-item {
   margin-top: 9px;
 }
 nav ul.nav-list-2 {
-  display: none;
+  display: block;
   position: 10px 0 0 20px;
   list-style-type: none;
   z-index: 600;
