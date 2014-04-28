@@ -87,7 +87,7 @@ def processSinglePage(key,bucket,curList):
 	#affected pages : about, portfolio
 	
 	print time2String(time.time())+"\tINFO\t"+"Processing single page ["+ key +"]"
-	path = output_dir + key +"/"+bucket+"/"
+	path = output_dir + "levinsu/" + key +"/"+bucket+"/"
 	if not os.path.exists(path):
 		os.makedirs(path)
 	output_handle = open(path+ filename,'w')
