@@ -1,0 +1,38 @@
+diary:
+  display: DIARY
+  bucket: diary
+  list:
+  - date: 2014-04-27
+    display: Zheng Yushan 27 APR 14
+    bucket: 140427zhengyushan
+    pics: 
+      - 140406_21625_10020_hd.jpg
+      - 140406_21625_10021_hd.jpg
+
+  - date: 2014-04-24
+    display: Backstage 24 APR 14
+    bucket: 140424backstage
+    pics:
+      - 140325_41150_10016_hd.jpg
+      - 140325_41150_10035_hd.jpg
+      - 140325_41150_10037_hd.jpg
+      - 140325_41150_10043_hd.jpg
+      - 140325_41150_10046_hd.jpg
+
+portrait:
+  display: PORTRAIT
+  bucket: portrait
+  list:
+  - display: Tang Zehong APR 14
+    bucket: 1404tangzehong
+    pics:
+      - 140406_21625_10019_hd.jpg
+      - 140406_21625_10009_hd.jpg
+
+  - display: Zhang Zchao Otc 13
+    bucket: 1310zhangzchao
+    pics:
+      - 151113_12137_01203_hd.jpg
+      - 151113_12137_01210_hd.jpg
+      
+

@@ -16,20 +16,7 @@
 	<body>
         <div class="site-logo">MO</div>
 
-        <nav class="site-nav" tabindex="-1">
-<ul class="nav-list">
-	<li class="nav-list-item">
-		<a class="l1-a" href="#">DIARY</a>
-	</li>
-	<li class="nav-list-item">
-		<a class="l1-a" href="#">PORTRAIT</a>
-			<ul class="nav-list-2">
-				<li><a href="/portrait/1404tangzehong/">Tang Zehong APR 14</a></li>
-				<li><a href="/portrait/1310zhangzchao/">Zhang Zchao Otc 13</a></li>
-			</ul>
-	</li>
-</ul></nav>
-
+        $NAV$
 
         <div class="diary-nav">
             <div class="diary-arrow arrow-up"></div>

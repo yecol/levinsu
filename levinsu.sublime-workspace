@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"nav",
+				"navString"
+			],
+			[
 				"back",
 				"background"
 			],
@@ -50,10 +54,6 @@
 			[
 				"fot",
 				"font-size"
-			],
-			[
-				"nav",
-				"nav-list-2"
 			],
 			[
 				"min",
@@ -360,10 +360,26 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "inc/photos.cfg.txt",
 			"settings":
 			{
-				"buffer_size": 7326,
+				"buffer_size": 577,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/workspace_git/yecols.cn/inc/generate.py",
+			"settings":
+			{
+				"buffer_size": 9585,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/build.py",
+			"settings":
+			{
+				"buffer_size": 792,
 				"line_ending": "Windows"
 			}
 		},
@@ -379,7 +395,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2837,
+				"buffer_size": 2838,
 				"line_ending": "Unix"
 			}
 		}
@@ -504,6 +520,7 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/levinsu/index.html",
 		"/C/Users/Yecol/Desktop/css/style.css",
 		"/C/Users/Yecol/Desktop/key_value.py",
 		"/D/Dropbox/Work/Survey/assignment_3.tex",
@@ -630,8 +647,7 @@
 		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.less",
 		"/D/Site/yecols.cn/portfolio.php",
 		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
-		"/D/Site/yecols.cn/portfolio.html",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings"
+		"/D/Site/yecols.cn/portfolio.html"
 	],
 	"find":
 	{
@@ -761,18 +777,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "inc/photos.cfg.txt",
 					"settings":
 					{
-						"buffer_size": 7326,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2647,
-								2647
+								32,
+								32
 							]
 						],
 						"settings":
@@ -780,12 +796,70 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/workspace_git/yecols.cn/inc/generate.py",
+					"settings":
+					{
+						"buffer_size": 9585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7801,
+								7801
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5400.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/build.py",
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -797,7 +871,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{
@@ -827,11 +901,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 2837,
+						"buffer_size": 2838,
 						"regions":
 						{
 						},
@@ -900,7 +974,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 124.0
+		"height": 68.0
 	},
 	"output.git":
 	{
