@@ -16,7 +16,6 @@
 html {
   font-family: "helvetica-thin", helvetica;
   font-size: 12px;
-  background-color: black;
 }
 a,
 a:hover,
@@ -40,6 +39,7 @@ nav {
   position: fixed;
   top: 75px;
   left: 60px;
+  z-index: 500;
 }
 nav .nav-list {
   margin: 86px auto auto 0;
@@ -61,7 +61,7 @@ nav ul.nav-list-2 {
   position: 10px 0 0 20px;
   list-style-type: none;
   z-index: 600;
-  padding: 6px;
+  padding: 11px 0 0 0;
 }
 nav ul.nav-list-2 li {
   margin: 0;
@@ -85,6 +85,10 @@ section.full-page {
 section.full-page img {
   width: 100%;
   margin-bottom: 80px;
+}
+#slides {
+  display: none;
+  width: 100%;
 }
 .diary-nav {
   width: 200px;
@@ -121,5 +125,6 @@ section.full-page img {
   height: 30px;
 }
 .diary-nav div.diary-content ul li a {
+  opacity: 0;
   line-height: 14px;
 }

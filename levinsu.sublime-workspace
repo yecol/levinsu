@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"image",
+				"imageBase"
+			],
+			[
+				"anima",
+				"animate	.animate() with callback"
+			],
+			[
+				"tog",
+				"toggle	.toggle()"
+			],
+			[
+				"to",
+				"toggle	.toggle()"
+			],
+			[
+				"di",
+				"diaryString"
+			],
+			[
+				"base",
+				"baseLiMargin"
+			],
+			[
+				"of",
+				"offsetTime"
+			],
+			[
+				"diary",
+				"diaryString"
+			],
+			[
+				"list",
+				"listItem"
+			],
+			[
+				"pro",
+				"processSinglePage"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"na",
+				"nav"
+			],
+			[
+				"k",
+				"key"
+			],
+			[
 				"nav",
 				"navString"
 			],
@@ -168,10 +220,6 @@
 				"font-weight"
 			],
 			[
-				"list",
-				"list-style-position"
-			],
-			[
 				"i",
 				"inline"
 			],
@@ -264,16 +312,8 @@
 				"margin-left"
 			],
 			[
-				"to",
-				"toggle	.toggle() (show/hide)"
-			],
-			[
 				"backr",
 				"background-position"
-			],
-			[
-				"anima",
-				"animate	animate"
 			],
 			[
 				"y-g",
@@ -302,10 +342,6 @@
 			[
 				"entry-sum",
 				"entry-summary-header"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"fu",
@@ -363,23 +399,7 @@
 			"file": "inc/photos.cfg.txt",
 			"settings":
 			{
-				"buffer_size": 577,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/workspace_git/yecols.cn/inc/generate.py",
-			"settings":
-			{
-				"buffer_size": 9585,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inc/build.py",
-			"settings":
-			{
-				"buffer_size": 792,
+				"buffer_size": 2546,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,7 +407,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2758,
+				"buffer_size": 2812,
 				"line_ending": "Windows"
 			}
 		},
@@ -520,7 +540,15 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/levinsu/inc/build.py",
+		"/D/xampp/htdocs/levinsu/inc/single.tpl",
+		"/D/xampp/htdocs/levinsu/inc/diary.tpl",
+		"/D/xampp/htdocs/levinsu/inc/index.tpl",
 		"/D/xampp/htdocs/levinsu/index.html",
+		"/D/workspace_git/yecols.cn/inc/generate.py",
+		"/D/xampp/htdocs/levinsu/diary/140427zhengyushan/index.html",
+		"/D/xampp/htdocs/levinsu/diary/140221test/index.html",
+		"/D/Dropbox/Work/survey-latex/sigproc-sp.tex",
 		"/C/Users/Yecol/Desktop/css/style.css",
 		"/C/Users/Yecol/Desktop/key_value.py",
 		"/D/Dropbox/Work/Survey/assignment_3.tex",
@@ -639,15 +667,7 @@
 		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/yecol.smarty.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.css",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.less",
-		"/D/Site/yecols.cn/portfolio.php",
-		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
-		"/D/Site/yecols.cn/portfolio.html"
+		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl"
 	],
 	"find":
 	{
@@ -665,6 +685,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"levinsu",
+			"levin",
+			"levinsu",
+			"imagebase",
+			"imageBase",
+			"imagebase",
+			"replace",
+			"tpl_hea",
 			"14",
 			"level-2",
 			"root",
@@ -780,15 +808,15 @@
 					"file": "inc/photos.cfg.txt",
 					"settings":
 					{
-						"buffer_size": 577,
+						"buffer_size": 2546,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								190,
+								190
 							]
 						],
 						"settings":
@@ -805,64 +833,6 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/workspace_git/yecols.cn/inc/generate.py",
-					"settings":
-					{
-						"buffer_size": 9585,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7801,
-								7801
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5400.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/build.py",
-					"settings":
-					{
-						"buffer_size": 792,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								725,
-								725
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
@@ -871,19 +841,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 2758,
+						"buffer_size": 2812,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1597,
-								1597
+								989,
+								989
 							]
 						],
 						"settings":
@@ -895,13 +865,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1080.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "assets/css/style.css",
 					"settings":
 					{
@@ -962,7 +932,7 @@
 		"cols":
 		[
 			0.0,
-			0.593743337045,
+			0.922235157191,
 			1.0
 		],
 		"rows":
@@ -974,7 +944,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 68.0
+		"height": 369.0
 	},
 	"output.git":
 	{
@@ -1009,6 +979,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 152.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }

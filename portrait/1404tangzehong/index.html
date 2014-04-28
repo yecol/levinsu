@@ -14,26 +14,57 @@
 
 	</head>
 	<body>
-        <div class="site-logo">MO</div>
+        <div class="site-logo"><a href="/">MO</a></div>
 
         <nav class="site-nav" tabindex="-1">
 <ul class="nav-list">
 	<li class="nav-list-item">
-		<a class="l1-a" href="#">DIARY</a>
 	</li>
+	<li class="nav-list-item">
+	</li>
+		<a class="l1-a" href="/diary/140427zhengyushan">DIARY</a>
 	<li class="nav-list-item">
 		<a class="l1-a" href="#">PORTRAIT</a>
 			<ul class="nav-list-2">
-				<li><a href="/portrait/1404tangzehong/">Tang Zehong APR 14</a></li>
-				<li><a href="/portrait/1310zhangzchao/">Zhang Zchao Otc 13</a></li>
+				<li><a href="/portrait/1404tangzehong/">TANG ZEHONG APR 14</a></li>
+				<li><a href="/portrait/1310zhangzchao/">ZHANG ZCHAO Otc 13</a></li>
 			</ul>
 	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">ARCHITECTURE</a>
+			<ul class="nav-list-2">
+				<li><a href="/architecture/1306yuzhenpalace/">YUZHEN PALACE JUN 13</a></li>
+				<li><a href="/architecture/1312thegreatwall/">THE GREAT WALL DEC 13</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">STILL LIFE</a>
+			<ul class="nav-list-2">
+				<li><a href="/stilllife/1306yushangyuan/">YU SHANGYUAN JUN 13</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">FASHION</a>
+			<ul class="nav-list-2">
+				<li><a href="/fashion/140427zhengyushan/">ZHENG YUSHAN 27 APR 14</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">DOCUMENTARY STYLE</a>
+			<ul class="nav-list-2">
+				<li><a href="/documentarystyle/1404mountainqingyun/">MOUNTAIN QINGYUN APR 14</a></li>
+			</ul>
+	</li>
+	<li class="bio-item">
+		<a href="#">BIO</a></li>
+	<li class="contact-item">
+		<a href="#">CONTACT</a></li>
 </ul></nav>
 
 
         <section class='full-page'>
-<img src="http://mo-img.b0.upaiyun.com//portrait/1404tangzehong/140406_21625_10019_hd.jpg" />
-<img src="http://mo-img.b0.upaiyun.com//portrait/1404tangzehong/140406_21625_10009_hd.jpg" />
+<img src="http://mo-img.b0.upaiyun.com/portrait/1404tangzehong/140406_21625_10019_hd.jpg!1280" />
+<img src="http://mo-img.b0.upaiyun.com/portrait/1404tangzehong/140406_21625_10009_hd.jpg!1280" />
 </section>
 <!--     <section class="full-page">
         <img src="../../assets/img/pixel.gif" data-original="photos/1.jpg" />
@@ -52,9 +83,17 @@
 <script type="text/javascript" src="../../assets/js/jquery.accordion.2.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("img").lazyload({
-      threshold : 400
-    });
+    // $("img").lazyload({
+    //   threshold : 400
+    // });
+
+    $('.site-nav').css('opacity', '0');
+    $('.site-nav').hover(function(){
+        $('.site-nav').animate({opacity: 1}, 400);;
+    },function(){
+        $('.site-nav').animate({opacity: 0}, 400);;
+    })
+    
 
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"

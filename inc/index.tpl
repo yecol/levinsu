@@ -42,13 +42,8 @@
             </div>
             <div class="diary-arrow arrow-down"></div>
         </div>
-<!--     <section class="full-page">
-        <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/3.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/4.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/5.jpg" />
-    </section> -->
+        $SLIDES$
+
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
@@ -57,6 +52,7 @@
 <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dimensions.js"></script>
 <script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     $("img").lazyload({
@@ -77,41 +73,32 @@ $(document).ready(function(){
     });
 
 
-    var speed = 300;
-    var timeID; 
-    $("div.arrow-down").hover(function(){
-        timeID =  setInterval(function(){
-            if (parseInt($(".diary-content ul").css('margin-top'))<parseInt($(".diary-content").css("height"))-parseInt($(".diary-content ul").css("height"))){
-               $(".diary-content ul").stop(true); 
+    $('#slides').slidesjs({
+        width: 1280,
+        height: 713,
+        navigation: {
+          active:false
+        },
+        pagination: {
+          active:false
+        },
+        play: {
+          active:false,
+          effect:"fade",
+          interval:5000,
+          auto:true
+        },
+        effect: {
+            slide: {
+            // Slide effect settings.
+                speed: 1200
+            // [number] Speed in milliseconds of the slide animation.
+            },
+            fade: {
+                speed: 1200
             }
-            else{
-                $(".diary-content ul").animate({
-                    "margin-top": "-=20px"
-                }, speed, "linear");
-            }
-        },0);
-    },function(){
-        $(".diary-content ul").stop(true);
-        clearInterval(timeID);
-    }
-    );
-
-    $("div.arrow-up").hover(function(){
-        timeID =  setInterval(function(){
-            if (parseInt($(".diary-content ul").css('margin-top'))>0){
-               $(".diary-content ul").stop(true); 
-            }
-            else{
-                $(".diary-content ul").animate({
-                    "margin-top":"+=20px"
-                }, speed, "linear");
-            }
-        },0);
-    },function(){
-        $(".diary-content ul").stop(true);
-        clearInterval(timeID);
-    }
-    );
+        }
+      });
 });
 </script>
 

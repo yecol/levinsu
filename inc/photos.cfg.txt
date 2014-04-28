@@ -1,16 +1,25 @@
+index:
+  pics:
+    - 140325_41150_10013.jpg
+    - 140325_41150_10016.jpg
+    - 140325_41150_100242.jpg
+    - 140325_41150_10035.jpg
+    - 140325_41150_10037.jpg
+    - 140325_41150_10043.jpg
+
 diary:
   display: DIARY
   bucket: diary
   list:
   - date: 2014-04-27
-    display: Zheng Yushan 27 APR 14
+    display: ZHENG YUSHAN 27 APR 14
     bucket: 140427zhengyushan
     pics: 
       - 140406_21625_10020_hd.jpg
       - 140406_21625_10021_hd.jpg
 
   - date: 2014-04-24
-    display: Backstage 24 APR 14
+    display: BACKSTAGE 24 APR 14
     bucket: 140424backstage
     pics:
       - 140325_41150_10016_hd.jpg
@@ -18,21 +27,92 @@ diary:
       - 140325_41150_10037_hd.jpg
       - 140325_41150_10043_hd.jpg
       - 140325_41150_10046_hd.jpg
+      - 140325_41150_10007.jpg
+      - 140325_41150_10012.jpg
+
+  - date: 2014-04-12
+    display: TESTTTTTTT1 21 MAR 14
+    bucket: 140427test
+    pics: 
+      - 140406_21625_10022.jpg
+      - 140406_21625_10024.jpg
+
+  - date: 2014-02-21
+    display: TEST2 21 FER 14
+    bucket: 140221test
+    pics: 
+      - 140103_0617001.jpg
+      - 140103_0617006.jpg
+
+  - date: 2014-01-21
+    display: TEST2 21 JAU 14
+    bucket: 140121test
+    pics: 
+      - 140325_41150_10020.jpg
+      - 140325_41150_10023.jpg
+      - 140325_41150_10024.jpg
+      - 140325_41150_10025.jpg
+      - 140325_41150_10048.jpg
 
 portrait:
   display: PORTRAIT
   bucket: portrait
   list:
-  - display: Tang Zehong APR 14
+  - display: TANG ZEHONG APR 14
     bucket: 1404tangzehong
     pics:
       - 140406_21625_10019_hd.jpg
       - 140406_21625_10009_hd.jpg
 
-  - display: Zhang Zchao Otc 13
+  - display: ZHANG ZCHAO Otc 13
     bucket: 1310zhangzchao
     pics:
       - 151113_12137_01203_hd.jpg
       - 151113_12137_01210_hd.jpg
       
+architecture:
+  display: ARCHITECTURE
+  bucket: architecture
+  list:
+  - display: YUZHEN PALACE JUN 13
+    bucket: 1306yuzhenpalace
+    pics:
+      - _MG_0889130605.jpg
+      - _MG_0901130605.jpg
+
+  - display: THE GREAT WALL DEC 13
+    bucket: 1312thegreatwall
+    pics:
+      - 14125_21123_11605.jpg
+      - 14125_21123_11618.jpg
+
+stilllife:
+  display: STILL LIFE
+  bucket: stilllifee
+  list:
+  - display: YU SHANGYUAN JUN 13
+    bucket: 1306yushangyuan
+    pics:
+      - IMG_4107101015.jpg
+      - IMG_4130101015.jpg
+
+fashion:
+  display: FASHION
+  bucket: fashion
+  list:
+  - display: ZHENG YUSHAN 27 APR 14
+    bucket: 140427zhengyushan
+    pics: 
+      - 140406_21625_10020_hd.jpg
+      - 140406_21625_10021_hd.jpg
+
+documentarystyle:
+  display: DOCUMENTARY STYLE
+  bucket: documentarystyle
+  list:
+  - display: MOUNTAIN QINGYUN APR 14
+    bucket: 1404mountainqingyun
+    pics:
+      - 021013_04209_09003.jpg
+      - 021013_04209_09004.jpg
 

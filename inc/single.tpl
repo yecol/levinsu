@@ -14,7 +14,7 @@
 
 	</head>
 	<body>
-        <div class="site-logo">MO</div>
+        <div class="site-logo"><a href="/">MO</a></div>
 
         $NAV$
 
@@ -36,9 +36,17 @@
 <script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("img").lazyload({
-      threshold : 400
-    });
+    // $("img").lazyload({
+    //   threshold : 400
+    // });
+
+    $('.site-nav').css('opacity', '0');
+    $('.site-nav').hover(function(){
+        $('.site-nav').animate({opacity: 1}, 400);;
+    },function(){
+        $('.site-nav').animate({opacity: 0}, 400);;
+    })
+    
 
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"

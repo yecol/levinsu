@@ -19,15 +19,46 @@
         <nav class="site-nav" tabindex="-1">
 <ul class="nav-list">
 	<li class="nav-list-item">
-		<a class="l1-a" href="#">DIARY</a>
 	</li>
+	<li class="nav-list-item">
+	</li>
+		<a class="l1-a" href="/diary/140427zhengyushan">DIARY</a>
 	<li class="nav-list-item">
 		<a class="l1-a" href="#">PORTRAIT</a>
 			<ul class="nav-list-2">
-				<li><a href="/portrait/1404tangzehong/">Tang Zehong APR 14</a></li>
-				<li><a href="/portrait/1310zhangzchao/">Zhang Zchao Otc 13</a></li>
+				<li><a href="/portrait/1404tangzehong/">TANG ZEHONG APR 14</a></li>
+				<li><a href="/portrait/1310zhangzchao/">ZHANG ZCHAO Otc 13</a></li>
 			</ul>
 	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">ARCHITECTURE</a>
+			<ul class="nav-list-2">
+				<li><a href="/architecture/1306yuzhenpalace/">YUZHEN PALACE JUN 13</a></li>
+				<li><a href="/architecture/1312thegreatwall/">THE GREAT WALL DEC 13</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">STILL LIFE</a>
+			<ul class="nav-list-2">
+				<li><a href="/stilllife/1306yushangyuan/">YU SHANGYUAN JUN 13</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">FASHION</a>
+			<ul class="nav-list-2">
+				<li><a href="/fashion/140427zhengyushan/">ZHENG YUSHAN 27 APR 14</a></li>
+			</ul>
+	</li>
+	<li class="nav-list-item">
+		<a class="l1-a" href="#">DOCUMENTARY STYLE</a>
+			<ul class="nav-list-2">
+				<li><a href="/documentarystyle/1404mountainqingyun/">MOUNTAIN QINGYUN APR 14</a></li>
+			</ul>
+	</li>
+	<li class="bio-item">
+		<a href="#">BIO</a></li>
+	<li class="contact-item">
+		<a href="#">CONTACT</a></li>
 </ul></nav>
 
 
@@ -55,13 +86,15 @@
             </div>
             <div class="diary-arrow arrow-down"></div>
         </div>
-<!--     <section class="full-page">
-        <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/3.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/4.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/5.jpg" />
-    </section> -->
+        <div id="slides">
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10013.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10016.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_100242.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10035.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10037.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10043.jpg!1280"/>
+</div>
+
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
@@ -70,6 +103,7 @@
 <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dimensions.js"></script>
 <script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     $("img").lazyload({
@@ -90,41 +124,32 @@ $(document).ready(function(){
     });
 
 
-    var speed = 300;
-    var timeID; 
-    $("div.arrow-down").hover(function(){
-        timeID =  setInterval(function(){
-            if (parseInt($(".diary-content ul").css('margin-top'))<parseInt($(".diary-content").css("height"))-parseInt($(".diary-content ul").css("height"))){
-               $(".diary-content ul").stop(true); 
+    $('#slides').slidesjs({
+        width: 1280,
+        height: 713,
+        navigation: {
+          active:false
+        },
+        pagination: {
+          active:false
+        },
+        play: {
+          active:false,
+          effect:"fade",
+          interval:5000,
+          auto:true
+        },
+        effect: {
+            slide: {
+            // Slide effect settings.
+                speed: 1200
+            // [number] Speed in milliseconds of the slide animation.
+            },
+            fade: {
+                speed: 1200
             }
-            else{
-                $(".diary-content ul").animate({
-                    "margin-top": "-=20px"
-                }, speed, "linear");
-            }
-        },0);
-    },function(){
-        $(".diary-content ul").stop(true);
-        clearInterval(timeID);
-    }
-    );
-
-    $("div.arrow-up").hover(function(){
-        timeID =  setInterval(function(){
-            if (parseInt($(".diary-content ul").css('margin-top'))>0){
-               $(".diary-content ul").stop(true); 
-            }
-            else{
-                $(".diary-content ul").animate({
-                    "margin-top":"+=20px"
-                }, speed, "linear");
-            }
-        },0);
-    },function(){
-        $(".diary-content ul").stop(true);
-        clearInterval(timeID);
-    }
-    );
+        }
+      });
 });
 </script>
 
