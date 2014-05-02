@@ -23,6 +23,9 @@ a:active {
   color: white;
   text-decoration: none;
 }
+a.fix {
+  color: gray;
+}
 .site-logo {
   top: 75px;
   left: 60px;

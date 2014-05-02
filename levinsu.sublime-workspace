@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"active",
+				"activeA"
+			],
+			[
 				"image",
 				"imageBase"
 			],
@@ -404,10 +408,42 @@
 			}
 		},
 		{
+			"file": "inc/build.py",
+			"settings":
+			{
+				"buffer_size": 6102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/index.tpl",
+			"settings":
+			{
+				"buffer_size": 4603,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/single.tpl",
+			"settings":
+			{
+				"buffer_size": 3909,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/diary.tpl",
+			"settings":
+			{
+				"buffer_size": 4650,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 2812,
+				"buffer_size": 2835,
 				"line_ending": "Windows"
 			}
 		},
@@ -415,8 +451,16 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2838,
+				"buffer_size": 2917,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "architecture/1306yuzhenpalace/index.html",
+			"settings":
+			{
+				"buffer_size": 5758,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -540,6 +584,7 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/Work/survey-latex/blinkdb-and-neo4j-survey.tex",
 		"/D/xampp/htdocs/levinsu/inc/build.py",
 		"/D/xampp/htdocs/levinsu/inc/single.tpl",
 		"/D/xampp/htdocs/levinsu/inc/diary.tpl",
@@ -666,8 +711,7 @@
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl"
+		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html"
 	],
 	"find":
 	{
@@ -685,6 +729,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"diary",
+			"!",
+			"print",
 			"levinsu",
 			"levin",
 			"levinsu",
@@ -800,7 +847,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -815,8 +862,8 @@
 						"selection":
 						[
 							[
-								190,
-								190
+								325,
+								325
 							]
 						],
 						"settings":
@@ -833,27 +880,150 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "assets/css/style.less",
+					"file": "inc/build.py",
 					"settings":
 					{
-						"buffer_size": 2812,
+						"buffer_size": 6102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								989,
-								989
+								3082,
+								3082
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/index.tpl",
+					"settings":
+					{
+						"buffer_size": 4603,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3306,
+								2442
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/single.tpl",
+					"settings":
+					{
+						"buffer_size": 3909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1690,
+								3785
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1547.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/diary.tpl",
+					"settings":
+					{
+						"buffer_size": 4650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1640,
+								1640
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 2835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1074,
+								1074
 							]
 						],
 						"settings":
@@ -865,25 +1035,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 60.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 2838,
+						"buffer_size": 2917,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								987,
+								987
 							]
 						],
 						"settings":
@@ -896,7 +1066,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1440.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "architecture/1306yuzhenpalace/index.html",
+					"settings":
+					{
+						"buffer_size": 5758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4024,
+								3687
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1740.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -932,7 +1133,7 @@
 		"cols":
 		[
 			0.0,
-			0.922235157191,
+			0.552749515364,
 			1.0
 		],
 		"rows":
@@ -944,7 +1145,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 369.0
+		"height": 152.0
 	},
 	"output.git":
 	{

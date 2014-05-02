@@ -40,6 +40,51 @@ $(document).ready(function(){
     //   threshold : 400
     // });
 
+    //get menu opened/
+    var $urlString = $(location).attr('href');
+    var arr = new Array();
+    arr = $urlString.split('/');
+    activeA = arr[arr.length-2];
+    activeLi = arr[arr.length-3];
+
+    $("a[name="+activeA+"]").addClass('fix');
+    $("li[name="+activeLi+"]").addClass('active');
+    // $("li[name="+activeLi+"] .accordion-opener").addClass('fix');
+    
+
+    //get suitable image src according to the resolution.
+    if ($(window).width()<1285) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1280');
+        });
+    }
+    else if($(window).width()<1445){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1440');
+        });
+    }
+    else if($(window).width()<1925){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1920');
+        });
+    }
+    else if($(window).width()<2565){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2560');
+        });
+    }
+    else if($(window).width()<3105){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2880');
+        });
+    }else{
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!4096');
+        });
+    }
+
+
+    //animation of the menu hide/show
     $('.site-nav').css('opacity', '0');
     $('.site-nav').hover(function(){
         $('.site-nav').animate({opacity: 1}, 400);;
@@ -48,6 +93,7 @@ $(document).ready(function(){
     })
     
 
+    //mane accordion
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"
         panel: ".nav-list-2", // Default: ".panel"

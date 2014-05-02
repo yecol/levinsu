@@ -55,9 +55,41 @@
 <script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("img").lazyload({
-      threshold : 400
-    });
+
+
+    if ($(window).width()<1285) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1280');
+        });
+    }
+    else if($(window).width()<1445){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1440');
+        });
+    }
+    else if($(window).width()<1925){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1920');
+        });
+    }
+    else if($(window).width()<2565){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2560');
+        });
+    }
+    else if($(window).width()<3105){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2880');
+        });
+    }else{
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!4096');
+        });
+    }
+
+    // $("img").lazyload({
+    //   threshold : 400
+    // });
 
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"

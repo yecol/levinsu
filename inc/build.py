@@ -60,7 +60,7 @@ def buildMenu(dict):
 					'<ul>\n'
 
 	for key in dict.keys():
-		navString += '\t<li class="nav-list-item">\n'
+		navString += '\t<li class="nav-list-item" name="'+key+'">\n'
 		
 		if key=="index":
 			pass;
@@ -69,7 +69,7 @@ def buildMenu(dict):
 			navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
 			navString += '\t\t\t<ul class="nav-list-2">\n'
 			for l2dict in dict.get(key).get("list"):
-				navString += '\t\t\t\t<li><a href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
+				navString += '\t\t\t\t<li><a name="'+l2dict.get("bucket")+'" href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
 
 			navString += '\t\t\t</ul>\n'
 		navString +="\t</li>\n"	
@@ -111,7 +111,7 @@ def processIndexPage(dict):
 	content = content.replace('$NAV$',navString);
 	slides = '<div id="slides">\n'
 	for item in dict.get("index").get("pics"):
-		slides +='<img src="'+imageBase+'/index/'+item+'!1280"/>\n'
+		slides +='<img src="'+imageBase+'/index/'+item+'"/>\n'
 	slides += "</div>"
 	content = content.replace('$SLIDES$',slides);
 	output_handle.write(content);
@@ -135,7 +135,7 @@ def processSinglePage(key,bucket,curList):
 	content = content.replace("$NAV$",navString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
-		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'!1280" />\n'
+		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
 	imageString +="</section>"
 	content = content.replace("$PHOTOS$",imageString);
 	content = content.replace("assets","../../assets")
@@ -162,7 +162,7 @@ def processDiaryPage(key,bucket,curList):
 	content = content.replace("$DIARY$",diaryString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
-		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'!1280" />\n'
+		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
 	imageString +="</section>"
 	content = content.replace("$PHOTOS$",imageString);
 	content = content.replace("assets","../../assets")

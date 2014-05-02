@@ -18,41 +18,41 @@
 
         <nav class="site-nav" tabindex="-1">
 <ul class="nav-list">
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="index">
 	</li>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="diary">
 	</li>
 		<a class="l1-a" href="/diary/140427zhengyushan">DIARY</a>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="portrait">
 		<a class="l1-a" href="#">PORTRAIT</a>
 			<ul class="nav-list-2">
-				<li><a href="/portrait/1404tangzehong/">TANG ZEHONG APR 14</a></li>
-				<li><a href="/portrait/1310zhangzchao/">ZHANG ZCHAO Otc 13</a></li>
+				<li><a name="1404tangzehong" href="/portrait/1404tangzehong/">TANG ZEHONG APR 14</a></li>
+				<li><a name="1310zhangzchao" href="/portrait/1310zhangzchao/">ZHANG ZCHAO Otc 13</a></li>
 			</ul>
 	</li>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="architecture">
 		<a class="l1-a" href="#">ARCHITECTURE</a>
 			<ul class="nav-list-2">
-				<li><a href="/architecture/1306yuzhenpalace/">YUZHEN PALACE JUN 13</a></li>
-				<li><a href="/architecture/1312thegreatwall/">THE GREAT WALL DEC 13</a></li>
+				<li><a name="1306yuzhenpalace" href="/architecture/1306yuzhenpalace/">YUZHEN PALACE JUN 13</a></li>
+				<li><a name="1312thegreatwall" href="/architecture/1312thegreatwall/">THE GREAT WALL DEC 13</a></li>
 			</ul>
 	</li>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="stilllife">
 		<a class="l1-a" href="#">STILL LIFE</a>
 			<ul class="nav-list-2">
-				<li><a href="/stilllife/1306yushangyuan/">YU SHANGYUAN JUN 13</a></li>
+				<li><a name="1306yushangyuan" href="/stilllife/1306yushangyuan/">YU SHANGYUAN JUN 13</a></li>
 			</ul>
 	</li>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="fashion">
 		<a class="l1-a" href="#">FASHION</a>
 			<ul class="nav-list-2">
-				<li><a href="/fashion/140427zhengyushan/">ZHENG YUSHAN 27 APR 14</a></li>
+				<li><a name="140427zhengyushan" href="/fashion/140427zhengyushan/">ZHENG YUSHAN 27 APR 14</a></li>
 			</ul>
 	</li>
-	<li class="nav-list-item">
+	<li class="nav-list-item" name="documentarystyle">
 		<a class="l1-a" href="#">DOCUMENTARY STYLE</a>
 			<ul class="nav-list-2">
-				<li><a href="/documentarystyle/1404mountainqingyun/">MOUNTAIN QINGYUN APR 14</a></li>
+				<li><a name="1404mountainqingyun" href="/documentarystyle/1404mountainqingyun/">MOUNTAIN QINGYUN APR 14</a></li>
 			</ul>
 	</li>
 	<li class="bio-item">
@@ -87,12 +87,12 @@
             <div class="diary-arrow arrow-down"></div>
         </div>
         <div id="slides">
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10013.jpg!1280"/>
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10016.jpg!1280"/>
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_100242.jpg!1280"/>
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10035.jpg!1280"/>
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10037.jpg!1280"/>
-<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10043.jpg!1280"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10013.jpg"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10016.jpg"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_100242.jpg"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10035.jpg"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10037.jpg"/>
+<img src="http://mo-img.b0.upaiyun.com/index/140325_41150_10043.jpg"/>
 </div>
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
@@ -106,9 +106,41 @@
 <script type="text/javascript" src="assets/js/jquery.slides.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $("img").lazyload({
-      threshold : 400
-    });
+
+
+    if ($(window).width()<1285) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1280');
+        });
+    }
+    else if($(window).width()<1445){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1440');
+        });
+    }
+    else if($(window).width()<1925){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!1920');
+        });
+    }
+    else if($(window).width()<2565){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2560');
+        });
+    }
+    else if($(window).width()<3105){
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!2880');
+        });
+    }else{
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!4096');
+        });
+    }
+
+    // $("img").lazyload({
+    //   threshold : 400
+    // });
 
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"
