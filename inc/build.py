@@ -9,12 +9,12 @@ ISODATEFORMAT="%Y-%m-%d"
 pwd = os.getcwd();
 if os.name == "posix":
 	#deploy-env
-	root_dir = "/var/www/html/"
+	root_dir = "/var/www/mopic/"
 else:
 	#dev-env
 	root_dir = "../"
 output_dir = root_dir
-imageBase = "http://mo-img.b0.upaiyun.com"
+imageBase = "http://mo-cdn.b0.upaiyun.com"
 filename = "index.html"
 
 curTime = time.localtime()
@@ -37,7 +37,7 @@ def time2String( s ):
 
 def offsetTime( s1,s2 ):
 	#string time format to float
-    return time.mktime(time.strptime(s1, ISODATEFORMAT)) - time.mktime(time.strptime(s2, ISODATEFORMAT))
+    return abs(time.mktime(time.strptime(s1, ISODATEFORMAT)) - time.mktime(time.strptime(s2, ISODATEFORMAT)))
 
 stream = open(config,"r")
 # dict = OrderedDict()
@@ -80,7 +80,7 @@ def buildMenu(dict):
 			offset = 0
 			for l2dict in dict.get(key).get("list"):
 				if basetime!='':
-					offset = round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin)
+					offset = min(100,round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin))
 					# print offset
 				else:
 					defaultPage = "/"+key+"/"+l2dict.get("bucket")

@@ -2,117 +2,506 @@ index:
   pics:
     - 140325_41150_10013.jpg
     - 140325_41150_10016.jpg
-    - 140325_41150_100242.jpg
+    - 140325_41150_10024.jpg
     - 140325_41150_10035.jpg
     - 140325_41150_10037.jpg
     - 140325_41150_10043.jpg
+
 
 diary:
   display: DIARY
   bucket: diary
   list:
-  - date: 2014-04-27
-    display: ZHENG YUSHAN 27 APR 14
-    bucket: 140427zhengyushan
+  - date: 2011-04-22
+    display: UNTITLED 22 APR. 11
+    bucket: untitled
     pics: 
-      - 140406_21625_10020_hd.jpg
-      - 140406_21625_10021_hd.jpg
+      - 110422_047331.jpg
+      - 110422_047332.jpg
+      - 110422_047333.jpg
+      - 110422_047334.jpg
 
-  - date: 2014-04-24
-    display: BACKSTAGE 24 APR 14
-    bucket: 140424backstage
+  - date: 2011-10-22
+    display: SCUEC CEREMONY 22 OTC. 11
+    bucket: scuecceremony
     pics:
-      - 140325_41150_10016_hd.jpg
-      - 140325_41150_10035_hd.jpg
-      - 140325_41150_10037_hd.jpg
-      - 140325_41150_10043_hd.jpg
-      - 140325_41150_10046_hd.jpg
-      - 140325_41150_10007.jpg
-      - 140325_41150_10012.jpg
+      - 111022_629461.jpg
+      - 111022_629462.jpg
+      - 111022_629463.jpg
+      - 111022_629464.jpg
+      - 111022_629465.jpg
+      - 111022_629466.jpg
 
-  - date: 2014-04-12
-    display: TESTTTTTTT1 21 MAR 14
-    bucket: 140427test
+  - date: 2011-10-30
+    display: FESTIVAL 30 OTC. 11
+    bucket: musicfestival
     pics: 
-      - 140406_21625_10022.jpg
-      - 140406_21625_10024.jpg
+      - 111030_076881.jpg
+      - 111030_076882.jpg
+      - 111030_076883.jpg
+      - 111030_076884.jpg
+      - 111030_076885.jpg
+      - 111030_076886.jpg
+      - 111030_076887.jpg
 
-  - date: 2014-02-21
-    display: TEST2 21 FER 14
-    bucket: 140221test
+  - date: 2011-11-14
+    display: GOLDEN 14 NOV. 11
+    bucket: goldentree
+    pics: 
+      - 111114_011501.jpg   
+
+  - date: 2011-11-17
+    display: GUILIN 17 NOV. 11
+    bucket: guilin
+    pics: 
+      - 111117_413621.jpg
+      - 111117_413622.jpg
+      - 111117_413623.jpg
+      - 111117_413624.jpg
+
+  - date: 2012-05-05
+    display: STARRY 05 MAY. 12
+    bucket: starry
+    pics: 
+      - 120505_053001.jpg
+      - 120505_053002.jpg
+      - 120505_053003.jpg
+      - 120505_053004.jpg
+      - 120505_053005.jpg
+      - 120505_053006.jpg
+
+  - date: 2012-07-22
+    display: MOUNTAIN MAO 22 JUL. 12
+    bucket: mountainmao
+    pics: 
+      - 120722_215171.jpg
+      - 120722_215172.jpg
+      - 120722_215173.jpg
+      - 120722_215175.jpg
+      - 120722_215176.jpg
+      - 120722_215177.jpg
+      - 120722_215178.jpg
+      - 120722_215179.jpg
+      - 120722_2151710.jpg
+      - 120722_2151711.jpg
+      - 120722_2151712.jpg
+
+  - date: 2012-10-28
+    display: LIJIE 28 OTC. 12
+    bucket: lijie
+    pics: 
+      - 121028_054961.jpg
+      - 121028_054962.jpg
+      - 121028_054963.jpg
+      - 121028_054964.jpg
+
+  - date: 2013-01-10
+    display: KANG ZIYANG 10 JAN. 13
+    bucket: kangziyang
+    pics: 
+      - 130110_51931.jpg
+      - 130110_51932.jpg
+      - 130110_51933.jpg
+      - 130110_51934.jpg
+      - 130110_51935.jpg
+
+  - date: 2013-01-27
+    display: XING YUAN 27 JAN. 13
+    bucket: xingyuan
+    pics: 
+      - 130127_70241.jpg
+      - 130127_70242.jpg
+      - 130127_70243.jpg
+      - 130127_70244.jpg
+      - 130127_70245.jpg
+      - 130127_70246.jpg
+      - 130127_70247.jpg
+
+  - date: 2013-02-04
+    display: UNTITLED 04 FEB. 13
+    bucket: fire
+    pics: 
+      - 130204_021222.jpg
+      - 130204_021221.jpg
+
+  - date: 2013-04-20
+    display: UNTITLED 20 APR. 13
+    bucket: linux
+    pics: 
+      - 130420_20201.jpg
+      - 130420_20202.jpg
+
+  - date: 2013-05-01
+    display: ZHU JIE 05 MAY. 13
+    bucket: zhujie
+    pics: 
+      - 130501_24581.jpg
+      - 130501_24582.jpg
+
+  - date: 2013-05-09
+    display: UNTITLED 09 MAY. 13
+    bucket: wangying
+    pics: 
+      - 0305091.jpg
+      - 0305092.jpg
+      - 0305093.jpg
+      - 0305094.jpg
+
+  - date: 2013-05-14
+    display: LAN CHENFEI 14 MAY. 13
+    bucket: lanchenfei
+    pics: 
+      - 130514_23111.jpg
+      - 130514_23112.jpg
+
+  - date: 2013-05-22
+    display: UNTITLED 22 MAY. 13
+    bucket: untitledii
+    pics: 
+      - 130522_718111.jpg
+      - 130522_718112.jpg
+      - 130522_718113.jpg
+      - 130522_718114.jpg
+      - 130522_718115.jpg
+      - 130522_718116.jpg
+      - 130522_718117.jpg
+
+  - date: 2013-06-07
+    display: CHEN GEN 07 JUN. 13
+    bucket: chengen
+    pics: 
+      - 130607_21921.jpg
+      - 130607_21922.jpg
+      - 130607_21923.jpg
+
+  - date: 2013-10-24
+    display: YU JING 24 OTC. 13
+    bucket: yujing
+    pics: 
+      - 241013_09303_09002.jpg
+      - 241013_09303_09003.jpg
+      - 241013_09303_09008.jpg
+      - 241013_09303_09006.jpg
+
+  - date: 2013-11-13
+    display: ZHANG CHAO 13 NOV. 13
+    bucket: zhangzchao
+    pics: 
+      - 151113_12137_01203.jpg
+      - 151113_12137_01204.jpg
+      - 151113_12137_01205.jpg
+      - 151113_12137_012010.jpg
+
+  - date: 2013-12-08
+    display: ZHANG YING 08 DEC. 13
+    bucket: zhangying
     pics: 
       - 140103_0617001.jpg
+      - 140103_0617002.jpg
+      - 140103_0617003.jpg
       - 140103_0617006.jpg
+      - 140103_0617005.jpg
 
-  - date: 2014-01-21
-    display: TEST2 21 JAU 14
-    bucket: 140121test
+  - date: 2014-03-24
+    display: BACKSTAGE 24 MAR. 14
+    bucket: zhangchibackstage
     pics: 
+      - 140325_41150_10005.jpg
+      - 140325_41150_10007.jpg
+      - 140325_41150_10009.jpg
+      - 140325_41150_10010.jpg
+      - 140325_41150_10012.jpg
+      - 140325_41150_10013.jpg
+      - 140325_41150_10016.jpg
+      - 140325_41150_10018.jpg
       - 140325_41150_10020.jpg
       - 140325_41150_10023.jpg
       - 140325_41150_10024.jpg
       - 140325_41150_10025.jpg
+      - 140325_41150_10026.jpg
+      - 140325_41150_10027.jpg
+      - 140325_41150_10029.jpg
+      - 140325_41150_10030.jpg
+      - 140325_41150_10032.jpg
+      - 140325_41150_10033.jpg
+      - 140325_41150_10035.jpg
+      - 140325_41150_10036.jpg
+      - 140325_41150_10037.jpg
+      - 140325_41150_10038.jpg
+      - 140325_41150_10040.jpg
+      - 140325_41150_10043.jpg
+      - 140325_41150_10045.jpg
+      - 140325_41150_10046.jpg
+      - 140325_41150_10047.jpg
       - 140325_41150_10048.jpg
+
+  - date: 2014-04-05
+    display: TANG ZEHONG 05 APR. 14
+    bucket: tangzehong
+    pics: 
+      - 140406_21625_10022.jpg
+      - 140406_21625_10024.jpg
+      - 140406_21625_10025.jpg
+      - 140406_21625_10029.jpg
+      - 140406_21625_10031.jpg
+
 
 portrait:
   display: PORTRAIT
   bucket: portrait
   list:
-  - display: TANG ZEHONG APR 14
-    bucket: 1404tangzehong
+  - display: OLDMAN AUG. 12
+    bucket: oldman
     pics:
-      - 140406_21625_10019_hd.jpg
-      - 140406_21625_10009_hd.jpg
+      - 120803_123611.jpg
 
-  - display: ZHANG ZCHAO Otc 13
-    bucket: 1310zhangzchao
+  - display: LIU SIYI FEB. 13
+    bucket: liusiyi
     pics:
-      - 151113_12137_01203_hd.jpg
-      - 151113_12137_01210_hd.jpg
+      - 130223_22461.jpg
+      - 130223_22462.jpg
+
+  - display: LEI SIQI FEB. 13
+    bucket: leisiqi
+    pics:
+      - 130211_54221.jpg
+      - 130211_54222.jpg
+      - 130211_54223.jpg
+      - 130211_54224.jpg
+
+  - display: LIAN FENGCHEN FEB. 13
+    bucket: lianfengchen
+    pics:
+      - 130215_216511.jpg
+      - 130215_216512.jpg
+
+  - display: YANG KE MAR. 13
+    bucket: yangke
+    pics:
+      - 130330_32601.jpg
+      - 130330_32602.jpg
+      - 130330_32603.jpg
+
+  - display: ZHU JIE MAY. 13
+    bucket: zhujie
+    pics:
+      - 130501_24581.jpg
+      - 130501_24582.jpg
+
+  - display: FU WANGSHU MAY. 13
+    bucket: fuwangshu
+    pics:
+      - 130519_22461.jpg
+      - 130519_22462.jpg
+
+  - display: TANG ZEHONG APR. 14
+    bucket: tangzehong
+    pics:
+      - 140406_21625_10008.jpg
+      - 140406_21625_10009.jpg
+      - 140406_21625_10010.jpg
+      - 140406_21625_10013.jpg
+      - 140406_21625_10018.jpg
+      - 140406_21625_10019.jpg
+
       
 architecture:
   display: ARCHITECTURE
   bucket: architecture
   list:
-  - display: YUZHEN PALACE JUN 13
-    bucket: 1306yuzhenpalace
+  - display: YUZHEN PALACE JUN. 13
+    bucket: yuzhenpalace
     pics:
-      - _MG_0889130605.jpg
-      - _MG_0901130605.jpg
+      - 130603_62462.jpg
+      - 130603_62461.jpg
+      - 130603_62465.jpg
+      - 130603_62463.jpg
+      - 130603_62464.jpg
+      - 130603_62466.jpg
 
-  - display: THE GREAT WALL DEC 13
-    bucket: 1312thegreatwall
-    pics:
-      - 14125_21123_11605.jpg
-      - 14125_21123_11618.jpg
 
 stilllife:
   display: STILL LIFE
   bucket: stilllifee
   list:
-  - display: YU SHANGYUAN JUN 13
-    bucket: 1306yushangyuan
+  - display: YU SHANGYUAN OTC. 12
+    bucket: yushangyuan
     pics:
-      - IMG_4107101015.jpg
-      - IMG_4130101015.jpg
+      - 101015_31721.jpg
+      - 101015_31722.jpg
+      - 101015_31723.jpg
+
 
 fashion:
   display: FASHION
   bucket: fashion
   list:
-  - display: ZHENG YUSHAN 27 APR 14
-    bucket: 140427zhengyushan
+  - display: ZHENG YUSHAN APR. 14
+    bucket: zhengyushan
     pics: 
-      - 140406_21625_10020_hd.jpg
-      - 140406_21625_10021_hd.jpg
+      - 140406_21625_10020.jpg
+      - 140406_21625_10021.jpg
 
 documentarystyle:
   display: DOCUMENTARY STYLE
   bucket: documentarystyle
   list:
-  - display: MOUNTAIN QINGYUN APR 14
-    bucket: 1404mountainqingyun
+  - display: BEIJING JUL. 11
+    bucket: beijing
+    pics:
+      - 110716_320981.jpg
+      - 110716_320982.jpg
+      - 110716_320983.jpg
+      - 121111_51251.jpg
+      - 121111_51252.jpg
+      - 121111_51253.jpg
+      - 121111_51254.jpg
+      - 121111_51255.jpg
+      - 121111_51256.jpg
+
+  - display: QINGHAI JUL. 12
+    bucket: qinghai
+    pics:
+      - 120715_5011101.jpg
+      - 120715_5011102.jpg
+      - 120715_5011103.jpg
+      - 120715_5011104.jpg
+      - 120715_5011105.jpg
+      - 120715_5011106.jpg
+      - 120715_5011107.jpg
+      - 120715_5011108.jpg
+      - 120715_5011109.jpg
+      - 120715_5011110.jpg
+      - 120715_5011111.jpg
+      - 120715_5011112.jpg
+      - 120715_5011113.jpg
+      - 120715_5011114.jpg
+      - 120715_5011115.jpg
+      - 120715_5011116.jpg
+      - 120715_5011117.jpg
+      - 120715_5011118.jpg
+      - 120715_5011119.jpg
+      - 120715_5011120.jpg
+      - 120715_5011121.jpg
+      - 120715_5011122.jpg
+      - 120715_5011123.jpg
+      - 120715_5011124.jpg
+      - 120715_5011125.jpg
+      - 120715_5011126.jpg
+      - 120715_5011127.jpg
+      - 120715_5011128.jpg
+      - 120715_5011129.jpg
+      - 120715_5011130.jpg
+      - 120715_5011131.jpg
+      - 120715_5011132.jpg
+      - 120715_5011133.jpg
+      - 120715_5011134.jpg
+      - 120715_5011135.jpg
+      - 120715_5011136.jpg
+      - 120715_5011137.jpg
+      - 120715_5011138.jpg
+      - 120715_5011139.jpg
+
+  - display: MOUNTAIN MAO JUL. 12
+    bucket: mountainmao
+    pics:
+      - 120722_215171.jpg
+      - 120722_215172.jpg
+      - 120722_215173.jpg
+      - 120722_215174.jpg
+      - 120722_215175.jpg
+      - 120722_215176.jpg
+      - 120722_215177.jpg
+      - 120722_215178.jpg
+      - 120722_215179.jpg
+      - 120722_2151710.jpg
+      - 120722_2151711.jpg
+      - 120722_2151712.jpg
+      - 120722_2151713.jpg
+      - 120722_2151714.jpg
+      - 120722_2151715.jpg
+      - 120722_2151716.jpg
+      - 120722_2151717.jpg
+      - 120722_2151718.jpg
+      - 120722_2151719.jpg
+      - 120722_2151720.jpg
+      - 120722_2151721.jpg
+
+  - display: BEIHE JIE JUA. 13
+    bucket: beihejie
+    pics:
+      - 130119_15941.jpg
+      - 130119_15942.jpg
+      - 130119_15943.jpg
+      - 130119_15944.jpg
+      - 130119_15945.jpg
+      - 130119_15946.jpg
+      - 130119_15947.jpg
+      - 130119_15948.jpg
+      - 130119_15949.jpg
+      - 130119_159410.jpg
+      - 130119_159411.jpg
+      - 130119_159412.jpg
+      - 130119_159413.jpg
+      - 130119_159414.jpg
+      - 130119_159415.jpg
+
+  - display: LQCQUER APR. 13
+    bucket: lacquer
+    pics:
+      - 130412_235951.jpg
+      - 130412_235952.jpg
+      - 130412_235953.jpg
+      - 130412_235954.jpg
+      - 130412_235955.jpg
+      - 130412_235956.jpg
+      - 130412_235957.jpg
+      - 130412_235958.jpg
+      - 130412_235959.jpg
+      - 130412_2359510.jpg
+      - 130412_2359511.jpg
+      - 130412_2359512.jpg
+      - 130412_2359513.jpg
+      - 130412_2359514.jpg
+      - 130412_2359515.jpg
+      - 130412_2359516.jpg
+      - 130412_2359517.jpg
+      - 130412_2359518.jpg
+      - 130412_2359519.jpg
+      - 130412_2359520.jpg
+      - 130412_2359521.jpg
+      - 130412_2359522.jpg
+      - 130412_2359523.jpg
+      - 130501_64581.jpg
+      - 130501_64582.jpg
+      - 130501_64583.jpg
+      - 130501_64584.jpg
+      - 130501_64585.jpg
+      - 130501_64586.jpg
+
+  - display: MOUNTAIN QINGYUN OTC. 13
+    bucket: mountainqingyun
     pics:
       - 021013_04209_09003.jpg
       - 021013_04209_09004.jpg
-
+      - 021013_04209_09005.jpg
+      - 1021013_04209_09006.jpg
+ 
+  - display: GREATWALL JUA. 14
+    bucket: thegreatwall
+    pics:
+      - 14125_21123_11600.jpg
+      - 14125_21123_11602.jpg
+      - 14125_21123_11603.jpg
+      - 14125_21123_11605.jpg
+      - 14125_21123_11606.jpg
+      - 14125_21123_11607.jpg
+      - 14125_21123_11608.jpg
+      - 14125_21123_11609.jpg
+      - 14125_21123_11612.jpg
+      - 14125_21123_11613.jpg
+      - 14125_21123_11614.jpg
+      - 14125_21123_11616.jpg
+      - 14125_21123_11617.jpg
+      - 14125_21123_11618.jpg
+      - 14125_21123_11620.jpg

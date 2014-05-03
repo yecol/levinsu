@@ -400,18 +400,10 @@
 	"buffers":
 	[
 		{
-			"file": "inc/photos.cfg.txt",
-			"settings":
-			{
-				"buffer_size": 2546,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "inc/build.py",
 			"settings":
 			{
-				"buffer_size": 6102,
+				"buffer_size": 6117,
 				"line_ending": "Windows"
 			}
 		},
@@ -435,7 +427,15 @@
 			"file": "inc/diary.tpl",
 			"settings":
 			{
-				"buffer_size": 4650,
+				"buffer_size": 4878,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/photos.cfg.txt",
+			"settings":
+			{
+				"buffer_size": 11486,
 				"line_ending": "Windows"
 			}
 		},
@@ -451,16 +451,8 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 2917,
+				"buffer_size": 2923,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "architecture/1306yuzhenpalace/index.html",
-			"settings":
-			{
-				"buffer_size": 5758,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -584,6 +576,8 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/levinsu/inc/photos.cfg.txt",
+		"/D/xampp/htdocs/levinsu/architecture/1306yuzhenpalace/index.html",
 		"/D/Dropbox/Work/survey-latex/blinkdb-and-neo4j-survey.tex",
 		"/D/xampp/htdocs/levinsu/inc/build.py",
 		"/D/xampp/htdocs/levinsu/inc/single.tpl",
@@ -709,9 +703,7 @@
 		"/D/Servers/xampp/xampp/htdocs/lhycn/index.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/hello.php",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
-		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html"
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php"
 	],
 	"find":
 	{
@@ -729,6 +721,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"baseLiMargin",
+			"untitled",
 			"diary",
 			"!",
 			"print",
@@ -847,54 +841,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "inc/photos.cfg.txt",
-					"settings":
-					{
-						"buffer_size": 2546,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								325,
-								325
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "inc/build.py",
 					"settings":
 					{
-						"buffer_size": 6102,
+						"buffer_size": 6117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3082,
-								3082
+								1182,
+								1182
 							]
 						],
 						"settings":
@@ -906,13 +869,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3540.0,
+						"translation.y": 253.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "inc/index.tpl",
 					"settings":
 					{
@@ -923,8 +886,8 @@
 						"selection":
 						[
 							[
-								3306,
-								2442
+								399,
+								399
 							]
 						],
 						"settings":
@@ -943,7 +906,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "inc/single.tpl",
 					"settings":
 					{
@@ -968,25 +931,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1547.0,
+						"translation.y": 387.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "inc/diary.tpl",
 					"settings":
 					{
-						"buffer_size": 4650,
+						"buffer_size": 4878,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1640,
-								1640
+								2854,
+								2854
 							]
 						],
 						"settings":
@@ -999,7 +962,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 1220.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/photos.cfg.txt",
+					"settings":
+					{
+						"buffer_size": 11486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								214,
+								214
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1007,7 +1001,7 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1045,15 +1039,15 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 2917,
+						"buffer_size": 2923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								987,
-								987
+								993,
+								993
 							]
 						],
 						"settings":
@@ -1066,38 +1060,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "architecture/1306yuzhenpalace/index.html",
-					"settings":
-					{
-						"buffer_size": 5758,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4024,
-								3687
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1740.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1133,7 +1096,7 @@
 		"cols":
 		[
 			0.0,
-			0.552749515364,
+			0.43355636133,
 			1.0
 		],
 		"rows":
@@ -1145,7 +1108,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 152.0
+		"height": 223.0
 	},
 	"output.git":
 	{

@@ -24,7 +24,7 @@ a:active {
   text-decoration: none;
 }
 a.fix {
-  color: gray;
+  font-weight: bold;
 }
 .site-logo {
   top: 75px;

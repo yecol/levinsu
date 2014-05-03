@@ -76,6 +76,13 @@ $(document).ready(function(){
     },function(){
         $('.site-nav').animate({opacity: 0}, 400);;
     })
+
+    //animation of the diary hide/show
+    $('.diary-content li').hover(function(){
+        $(this).children('a').animate({opacity: 1}, 500);;
+    },function(){
+        $(this).children('a').animate({opacity: 0}, 500);;
+    })
     
 
     //mane accordion
