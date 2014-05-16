@@ -16,16 +16,9 @@
 	<body>
         <div class="site-logo"><a href="/">MO</a></div>
 
+        $PHOTOS$
         $NAV$
 
-        $PHOTOS$
-<!--     <section class="full-page">
-        <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/3.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/4.jpg" />
-        <img src="assets/img/pixel.gif" data-original="photos/5.jpg" />
-    </section> -->
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->

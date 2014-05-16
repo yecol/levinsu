@@ -16,33 +16,9 @@
 	<body>
         <div class="site-logo">MO</div>
 
-        $NAV$
-
-        <div class="diary-nav">
-            <div class="diary-arrow arrow-up"></div>
-            <div class="diary-content">
-                <ul>
-                    <li style="margin-top:20px;"><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li style="margin-top:80px;"><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li style="margin-top:40px;"><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li style="margin-top:30px;"><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-                    <li><a href="#">APRIL 14</a></li>
-
-                </ul>
-            </div>
-            <div class="diary-arrow arrow-down"></div>
-        </div>
         $SLIDES$
+        $NAV$
+        
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>

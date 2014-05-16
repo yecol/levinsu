@@ -16,9 +16,10 @@
 	<body>
         <div class="site-logo"><a href="/">MO</a></div>
 
+        $PHOTOS$
         $NAV$
         $DIARY$
-        $PHOTOS$
+        
 <!--     <section class="full-page">
         <img src="assets/img/pixel.gif" data-original="photos/1.jpg" />
         <img src="assets/img/pixel.gif" data-original="photos/2.jpg" />
