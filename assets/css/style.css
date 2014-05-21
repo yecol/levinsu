@@ -80,7 +80,6 @@ nav ul.nav-list-2 li a {
   line-height: 12px;
   text-decoration: none;
   font-size: 12px;
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
 }
 section.full-page {
   width: 100%;
@@ -89,13 +88,16 @@ section.full-page img {
   width: 100%;
   margin-bottom: 80px;
 }
+section.full-page img:last-of-type {
+  margin-bottom: 0;
+}
 #slides {
   display: none;
   width: 100%;
 }
 .diary-nav {
   width: 200px;
-  height: 400px;
+  height: 280px;
   position: fixed;
   top: 130px;
   right: 60px;
@@ -131,6 +133,9 @@ section.full-page img {
   opacity: 0;
   line-height: 14px;
 }
+.foot-nav {
+  display: none;
+}
 @media (max-width: 750px) {
   a,
   a:hover,
@@ -143,27 +148,23 @@ section.full-page img {
     position: relative;
     display: block;
     float: left;
-    z-index: 0;
+    z-index: 700;
     left: 0;
     top: 0;
     color: black;
     width: 100px;
     margin: 20px auto 20px 20px;
+    font-size: 25px;
   }
   section.full-page {
-    float: left;
     position: relative;
     z-index: 0;
     width: 100%;
-    overflow: auto;
-    overflow-y: hidden;
     margin: 0 auto;
-    white-space: nowrap;
   }
   section.full-page img {
-    display: inline;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   #slides {
     z-index: 0;
@@ -180,6 +181,42 @@ section.full-page img {
     left: 0;
   }
   .site-nav .nav-list {
-    margin: 20px auto auto 20px;
+    margin: 25px auto auto 20px;
+  }
+  .site-nav li.bio-item,
+  .site-nav li.contact-item {
+    display: none;
+  }
+  .foot-nav {
+    top: 0;
+    left: 0;
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: black;
+    height: 100px;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+  .foot-nav li {
+    margin: 12px 0 0 0;
+    letter-spacing: 1px;
+  }
+  .foot-nav li.bio-item {
+    margin-top: 40px;
+    font-size: 10px;
+  }
+  .foot-nav li.bio-item a {
+    color: white;
+  }
+  .foot-nav li.contact-item {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  .foot-nav li.contact-item a {
+    color: white;
   }
 }

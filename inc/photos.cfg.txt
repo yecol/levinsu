@@ -7,10 +7,6 @@ index:
     - 140325_41150_10037.jpg
     - 140325_41150_10043.jpg
 
-
-
-
-
 diary:
   display: DIARY
   bucket: diary
@@ -317,6 +313,15 @@ architecture:
   display: ARCHITECTURE
   bucket: architecture
   list:
+  - display: COMMUNE BY THE GREAT WALL MAY. 14
+    bucket: communebythegreatwall
+    pics:
+      - 140512_07279_10050.jpg
+      - 140512_07279_10057.jpg
+      - 140512_07279_10049.jpg
+      - 140512_07279_10042.jpg
+      - 140512_07279_10059.jpg
+
   - display: YUZHEN PALACE JUN. 13
     bucket: yuzhenpalace
     pics:
@@ -327,6 +332,7 @@ architecture:
       - 130603_62464.jpg
       - 130603_62466.jpg
 
+  
 
 
 
@@ -343,23 +349,6 @@ stilllife:
       - 101015_31723.jpg
 
 
-
-
-
-fashion:
-  display: FASHION
-  bucket: fashion
-  list:
-  - display: ZHENG YUSHAN APR. 14
-    bucket: zhengyushan
-    pics: 
-      - 140406_21625_10020.jpg
-      - 140406_21625_10021.jpg
-
-
-
-
-
 documentarystyle:
   display: DOCUMENTARY STYLE
   bucket: documentarystyle
@@ -367,19 +356,13 @@ documentarystyle:
   - display: GREATWALL JUA. 14
     bucket: thegreatwall
     pics:
-      - 14125_21123_11600.jpg
-      - 14125_21123_11602.jpg
-      - 14125_21123_11603.jpg
       - 14125_21123_11605.jpg
-      - 14125_21123_11606.jpg
-      - 14125_21123_11607.jpg
+      - 14125_21123_11602.jpg
       - 14125_21123_11608.jpg
       - 14125_21123_11609.jpg
       - 14125_21123_11612.jpg
-      - 14125_21123_11613.jpg
       - 14125_21123_11614.jpg
       - 14125_21123_11616.jpg
-      - 14125_21123_11617.jpg
       - 14125_21123_11618.jpg
       - 14125_21123_11620.jpg
 
@@ -468,8 +451,8 @@ documentarystyle:
   - display: QINGHAI JUL. 12
     bucket: qinghai
     pics:
-      - 120715_5011101.jpg
       - 120715_5011102.jpg
+      - 120715_5011101.jpg
       - 120715_5011103.jpg
       - 120715_5011104.jpg
       - 120715_5011105.jpg

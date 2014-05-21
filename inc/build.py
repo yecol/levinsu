@@ -98,6 +98,13 @@ def buildMenu(dict):
 				'\t\t<a href="#">CONTACT</a></li>\n'
 	navString += "</ul></nav>\n"
 
+	navString += '<ul class="foot-nav mobile-only">\n'\
+				'\t<li class="bio-item">\n'\
+				'\t\t<a href="#">BIO</a></li>\n'\
+				'\t<li class="contact-item">\n'\
+				'\t\t<a href="#">CONTACT</a></li>\n'\
+				'</ul>\n'
+
 def processIndexPage(dict):
 	
 	#generate index page
@@ -106,7 +113,7 @@ def processIndexPage(dict):
 	print time2String(time.time())+"\tINFO\t"+"Processing index page"
 	path = output_dir
 	output_handle = open(path+ filename,'w')
-	page_file_handle = open("index.tpl")
+	page_file_handle = open(root_dir+"inc/index.tpl")
 	content = page_file_handle.read();
 	content = content.replace('$NAV$',navString);
 	slides = '<div id="slides">\n'
@@ -129,7 +136,7 @@ def processSinglePage(key,bucket,curList):
 	if not os.path.exists(path):
 		os.makedirs(path)
 	output_handle = open(path+ filename,'w')
-	page_file_handle = open("single.tpl")
+	page_file_handle = open(root_dir+"inc/single.tpl")
 	# output_handle.write(add_header(key)+"\n")
 	content = page_file_handle.read();
 	content = content.replace("$NAV$",navString);
@@ -155,9 +162,10 @@ def processDiaryPage(key,bucket,curList):
 	if not os.path.exists(path):
 		os.makedirs(path)
 	output_handle = open(path+ filename,'w')
-	page_file_handle = open("diary.tpl")
+	page_file_handle = open(root_dir+"inc/diary.tpl")
 	# output_handle.write(add_header(key)+"\n")
-	content = page_file_handle.read();
+	content = "<!--This page is cached on "+time2String(time.time())+"-->"+"\n";
+	content += page_file_handle.read();
 	content = content.replace("$NAV$",navString);
 	content = content.replace("$DIARY$",diaryString);
 	imageString = "<section class='full-page'>\n"
@@ -183,6 +191,7 @@ if __name__ == '__main__':
 		elif key!="index":
 			for listItem in dict.get(key).get("list"):
 				processSinglePage(key,listItem.get("bucket"),listItem)
+	print "build successful."
 
 
 

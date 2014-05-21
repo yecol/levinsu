@@ -33,7 +33,12 @@
 $(document).ready(function(){
 
 
-    if ($(window).width()<1285) {
+    if ($(window).width()<=750) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!750');
+        });
+    }
+    else if ($(window).width()<1285) {
         $('img').each(function(){
             $(this).attr('src',$(this).attr('src')+'!1280');
         });
@@ -83,7 +88,7 @@ $(document).ready(function(){
 
     $('#slides').slidesjs({
         width: 1280,
-        height: 713,
+        height: 960,
         navigation: {
           active:false
         },

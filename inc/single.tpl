@@ -46,7 +46,12 @@ $(document).ready(function(){
     
 
     //get suitable image src according to the resolution.
-    if ($(window).width()<1285) {
+    if ($(window).width()<=750) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!750');
+        });
+    }
+    else if ($(window).width()<1285) {
         $('img').each(function(){
             $(this).attr('src',$(this).attr('src')+'!1280');
         });
@@ -78,12 +83,21 @@ $(document).ready(function(){
 
 
     //animation of the menu hide/show
-    $('.site-nav').css('opacity', '0');
-    $('.site-nav').hover(function(){
-        $('.site-nav').animate({opacity: 1}, 400);;
-    },function(){
-        $('.site-nav').animate({opacity: 0}, 400);;
-    })
+    if($(window).width()>750){
+        $('.site-nav').css('opacity', '0');
+        $('.site-nav').hover(function(){
+            $('.site-nav').animate({opacity: 1}, 400);;
+        },function(){
+            $('.site-nav').animate({opacity: 0}, 400);;
+        })
+    
+        //animation of the diary hide/show
+        $('.diary-content li').hover(function(){
+            $(this).children('a').animate({opacity: 1}, 500);;
+        },function(){
+            $(this).children('a').animate({opacity: 0}, 500);;
+        })
+    }
     
 
     //mane accordion

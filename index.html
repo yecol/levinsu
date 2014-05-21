@@ -47,6 +47,7 @@
 	<li class="nav-list-item" name="architecture">
 		<a class="l1-a" href="#">ARCHITECTURE</a>
 			<ul class="nav-list-2">
+				<li><a name="communebythegreatwall" href="/architecture/communebythegreatwall/">COMMUNE BY THE GREAT WALL MAY. 14</a></li>
 				<li><a name="yuzhenpalace" href="/architecture/yuzhenpalace/">YUZHEN PALACE JUN. 13</a></li>
 			</ul>
 	</li>
@@ -54,12 +55,6 @@
 		<a class="l1-a" href="#">STILL LIFE</a>
 			<ul class="nav-list-2">
 				<li><a name="yushangyuan" href="/stilllife/yushangyuan/">YU SHANGYUAN OTC. 12</a></li>
-			</ul>
-	</li>
-	<li class="nav-list-item" name="fashion">
-		<a class="l1-a" href="#">FASHION</a>
-			<ul class="nav-list-2">
-				<li><a name="zhengyushan" href="/fashion/zhengyushan/">ZHENG YUSHAN APR. 14</a></li>
 			</ul>
 	</li>
 	<li class="nav-list-item" name="documentarystyle">
@@ -79,6 +74,12 @@
 	<li class="contact-item">
 		<a href="#">CONTACT</a></li>
 </ul></nav>
+<ul class="foot-nav mobile-only">
+	<li class="bio-item">
+		<a href="#">BIO</a></li>
+	<li class="contact-item">
+		<a href="#">CONTACT</a></li>
+</ul>
 
         
 
@@ -95,7 +96,12 @@
 $(document).ready(function(){
 
 
-    if ($(window).width()<1285) {
+    if ($(window).width()<=750) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src')+'!750');
+        });
+    }
+    else if ($(window).width()<1285) {
         $('img').each(function(){
             $(this).attr('src',$(this).attr('src')+'!1280');
         });
@@ -145,7 +151,7 @@ $(document).ready(function(){
 
     $('#slides').slidesjs({
         width: 1280,
-        height: 713,
+        height: 960,
         navigation: {
           active:false
         },
