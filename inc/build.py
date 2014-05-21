@@ -82,10 +82,10 @@ def buildMenu(dict):
 				if basetime!='':
 					offset = min(100,round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin))
 					# print offset
-				else:
-					defaultPage = "/"+key+"/"+l2dict.get("bucket")
 				diaryString += '<li style="margin-top:'+str(offset)+'px"><a href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
 				basetime = l2dict.get("date")
+				defaultPage = "/"+key+"/"+l2dict.get("bucket")
+
 
 			diaryString += "</ul></div>\n"\
 							'<div class="diary-arrow arrow-down"></div></div>'
