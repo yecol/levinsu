@@ -38,6 +38,14 @@ a.fix {
   border: 0;
   font-size: 30px;
 }
+.btheme a,
+.btheme a:hover,
+.btheme a:active {
+  color: black;
+}
+.btheme a.fix {
+  color: gray;
+}
 nav {
   position: fixed;
   top: 75px;
@@ -196,17 +204,16 @@ section.full-page img:last-of-type {
     width: 100%;
     color: white;
     background-color: black;
-    height: 100px;
+    height: 70px;
     list-style: none;
-    padding-left: 20px;
     margin-top: 20px;
   }
   .foot-nav li {
-    margin: 12px 0 0 0;
+    margin: 12px 0 0 20px;
     letter-spacing: 1px;
   }
   .foot-nav li.bio-item {
-    margin-top: 40px;
+    margin-top: 21px;
     font-size: 10px;
   }
   .foot-nav li.bio-item a {

@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title>Levinsu.com</title>
-		<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
         <!--[if lt IE 9]>
         <script src="assets/js/html5shiv.js"></script>
@@ -14,7 +14,7 @@
 
 	</head>
 	<body>
-        <div class="site-logo"><a href="/">MO</a></div>
+        <div class="site-logo $THEME$"><a href="/">MO</a></div>
 
         $PHOTOS$
         $NAV$
@@ -30,11 +30,11 @@
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
-<script type="text/javascript" src="assets/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.dimensions.js"></script>
-<script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.accordion.2.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 
@@ -85,11 +85,11 @@ $(document).ready(function(){
         })
     
         //animation of the diary hide/show
-        $('.diary-content li').hover(function(){
-            $(this).children('a').animate({opacity: 1}, 500);
-        },function(){
-            $(this).children('a').animate({opacity: 0}, 500);
-        })
+        // $('.diary-content li').hover(function(){
+        //     $(this).children('a').animate({opacity: 1}, 500);
+        // },function(){
+        //     $(this).children('a').animate({opacity: 0}, 500);
+        // })
     }
 
 
@@ -113,7 +113,7 @@ $(document).ready(function(){
     $(".diary-content ul").css("margin-top", parseInt($(".diary-content").css("height"))-parseInt($(".diary-content ul").css("height"))+"px");
 
     $("div.arrow-down").hover(function(){
-        $('.diary-content li').children('a').animate({opacity: 1}, 500);;
+        // $('.diary-content li').children('a').animate({opacity: 1}, 500);;
         timeID =  setInterval(function(){
             if (parseInt($(".diary-content ul").css('margin-top'))<parseInt($(".diary-content").css("height"))-parseInt($(".diary-content ul").css("height"))){
                $(".diary-content ul").stop(true); 
@@ -125,14 +125,20 @@ $(document).ready(function(){
             }
         },0);
     },function(){
-        $('.diary-content li').children('a').animate({opacity: 0}, 500);
+        // $('.diary-content li').children('a').animate({opacity: 0}, 500);
         $(".diary-content ul").stop(true);
         clearInterval(timeID);
     }
     );
 
+    $("div.diary-nav").hover(function(){
+        $('.diary-content li').children('a').animate({opacity: 1}, 500);;
+    },function(){
+        $('.diary-content li').children('a').animate({opacity: 0}, 500);
+    });
+
     $("div.arrow-up").hover(function(){
-        $('.diary-content li').children('a').animate({opacity: 1}, 500);
+        // $('.diary-content li').children('a').animate({opacity: 1}, 500);
         timeID =  setInterval(function(){
             if (parseInt($(".diary-content ul").css('margin-top'))>0){
                $(".diary-content ul").stop(true); 
@@ -144,7 +150,7 @@ $(document).ready(function(){
             }
         },0);
     },function(){
-        $('.diary-content li').children('a').animate({opacity: 0}, 500);
+        // $('.diary-content li').children('a').animate({opacity: 0}, 500);
         $(".diary-content ul").stop(true);
         clearInterval(timeID);
     }

@@ -46,15 +46,29 @@ dict = ordered_load(stream, yaml.SafeLoader, collections.OrderedDict);
 #global content
 navString = ''
 diaryString = ''
+blackPages = {};
+
+
+def getBlackPages(dict):
+	# pass;
+	global blackPages;
+	for key in dict.keys():
+		if key == "index":
+			pass;
+		else: 
+			for l2key in dict.get(key).get("list"):
+				if(str(l2key.get("black"))=="1"):
+					blackPages[key+"/"+str(l2key.get("bucket"))]=1
+
 
 def buildMenu(dict):
 	# menu - diary
 	global navString;
 	global diaryString;
-	navString = '<nav class="site-nav" tabindex="-1">\n'\
+	navString = '<nav class="site-nav $THEME$" tabindex="-1">\n'\
 				'<ul class="nav-list">\n'
 
-	diaryString = '<div class="diary-nav">\n'\
+	diaryString = '<div class="diary-nav $THEME$">\n'\
 					'<div class="diary-arrow arrow-up"></div>\n'\
 					'<div class="diary-content">\n'\
 					'<ul>\n'
@@ -145,7 +159,11 @@ def processSinglePage(key,bucket,curList):
 		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
 	imageString +="</section>"
 	content = content.replace("$PHOTOS$",imageString);
-	content = content.replace("assets","../../assets")
+	if(blackPages.has_key(key+"/"+bucket)):
+		# this page is set to be blackfont
+		content = content.replace("$THEME$","btheme");
+	else:
+		content = content.replace("$THEME$","");
 	output_handle.write(content);
 	# output_handle.write(add_footer(key)+"\n")
 	page_file_handle.close()
@@ -173,7 +191,11 @@ def processDiaryPage(key,bucket,curList):
 		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
 	imageString +="</section>"
 	content = content.replace("$PHOTOS$",imageString);
-	content = content.replace("assets","../../assets")
+	if(blackPages.has_key(key+"/"+bucket)):
+		# this page is set to be blackfont
+		content = content.replace("$THEME$","btheme");
+	else:
+		content = content.replace("$THEME$","");
 	output_handle.write(content);
 	# output_handle.write(add_footer(key)+"\n")
 	page_file_handle.close()
@@ -182,7 +204,10 @@ def processDiaryPage(key,bucket,curList):
 
 
 if __name__ == '__main__':
-	buildMenu(dict)
+
+	getBlackPages(dict);
+	buildMenu(dict);
+	print str(blackPages);
 	processIndexPage(dict);
 	for key in dict.keys():
 		if key =="diary":

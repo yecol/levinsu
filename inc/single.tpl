@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
 		<title>Levinsu.com</title>
-		<link type="text/css" rel="stylesheet" href="assets/css/style.css">
+		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
         <!--[if lt IE 9]>
         <script src="assets/js/html5shiv.js"></script>
@@ -14,7 +14,7 @@
 
 	</head>
 	<body>
-        <div class="site-logo"><a href="/">MO</a></div>
+        <div class="site-logo $THEME$"><a href="/">MO</a></div>
 
         $PHOTOS$
         $NAV$
@@ -22,11 +22,11 @@
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
 <!--JAVASCRIPT-->
-<script type="text/javascript" src="assets/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.dimensions.js"></script>
-<script type="text/javascript" src="assets/js/jquery.accordion.2.0.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.dimensions.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.accordion.2.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
     // $("img").lazyload({

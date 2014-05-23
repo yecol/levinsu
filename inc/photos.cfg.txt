@@ -7,6 +7,10 @@ index:
     - 140325_41150_10037.jpg
     - 140325_41150_10043.jpg
 
+
+
+
+
 diary:
   display: DIARY
   bucket: diary
@@ -184,6 +188,7 @@ diary:
   - date: 2013-11-13
     display: ZHANG CHAO 13 NOV. 13
     bucket: zhangzchao
+    black: 1
     pics: 
       - 151113_12137_01203.jpg
       - 151113_12137_01204.jpg
@@ -193,6 +198,7 @@ diary:
   - date: 2013-12-08
     display: ZHANG YING 08 DEC. 13
     bucket: zhangying
+    black: 1
     pics: 
       - 140103_0617001.jpg
       - 140103_0617002.jpg
@@ -203,6 +209,7 @@ diary:
   - date: 2014-03-24
     display: BACKSTAGE 24 MAR. 14
     bucket: zhangchibackstage
+    black: 1
     pics: 
       - 140325_41150_10037.jpg
       - 140325_41150_10013.jpg
@@ -236,6 +243,7 @@ diary:
   - date: 2014-04-05
     display: TANG ZEHONG 05 APR. 14
     bucket: tangzehong
+    black: 1
     pics: 
       - 140406_21625_10022.jpg
       - 140406_21625_10024.jpg
@@ -304,24 +312,28 @@ portrait:
     bucket: oldman
     pics:
       - 120803_123611.jpg
-
-
-  
-
-      
+    
 architecture:
   display: ARCHITECTURE
   bucket: architecture
   list:
+  - display: MASTERCARD CENTER JUN. 14
+    bucket: mastercardcenter
+    black: 1
+    pics:
+      - 140520_03136_10001.jpg
+      - 140520_03136_10002.jpg
+      - 140520_03136_10003.jpg
+
   - display: COMMUNE BY THE GREAT WALL MAY. 14
     bucket: communebythegreatwall
     pics:
       - 140512_07279_10050.jpg
       - 140512_07279_10057.jpg
       - 140512_07279_10049.jpg
-      - 140512_07279_10042.jpg
       - 140512_07279_10059.jpg
-
+      - 140512_07279_10042.jpg
+      
   - display: YUZHEN PALACE JUN. 13
     bucket: yuzhenpalace
     pics:
@@ -332,7 +344,6 @@ architecture:
       - 130603_62464.jpg
       - 130603_62466.jpg
 
-  
 
 
 
@@ -347,6 +358,23 @@ stilllife:
       - 101015_31721.jpg
       - 101015_31722.jpg
       - 101015_31723.jpg
+
+
+
+
+
+fashion:
+  display: FASHION
+  bucket: fashion
+  list:
+  - display: ZHENG YUSHAN APR. 14
+    bucket: zhengyushan
+    pics: 
+      - 140406_21625_10020.jpg
+      - 140406_21625_10021.jpg
+
+
+
 
 
 documentarystyle:
