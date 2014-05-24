@@ -74,6 +74,16 @@ $(document).ready(function(){
         });
     }
 
+    //get menu opened/
+    var $urlString = $(location).attr('href');
+    var arr = new Array();
+    arr = $urlString.split('/');
+    activeA = arr[arr.length-2];
+    activeLi = arr[arr.length-3];
+
+    $("a[name="+activeA+"]").addClass('fix');
+    $("li[name="+activeLi+"]").addClass('active');
+
 
     //animation of the menu hide/show
     if($(window).width()>750){

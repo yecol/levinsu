@@ -68,20 +68,24 @@ def buildMenu(dict):
 	navString = '<nav class="site-nav $THEME$" tabindex="-1">\n'\
 				'<ul class="nav-list">\n'
 
-	diaryString = '<div class="diary-nav $THEME$">\n'\
+	diaryString = '<div class="diary-nav $THEME$ desktop-only">\n'\
 					'<div class="diary-arrow arrow-up"></div>\n'\
 					'<div class="diary-content">\n'\
 					'<ul>\n'
 
 	for key in dict.keys():
-		navString += '\t<li class="nav-list-item" name="'+key+'">\n'
-		
-		if key=="index":
-			pass;
 
-		elif key!="diary":
-			navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
-			navString += '\t\t\t<ul class="nav-list-2">\n'
+		if key=="index":
+			navString += '\t<li class="nav-list-item" name="index"><a class="l1-a" href="#"></a></li>\n'
+		else:		
+			if(key == "diary"):
+				navString += '\t<li class="nav-list-item mobile-only" name="'+key+'">\n'
+				navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
+				navString += '\t\t\t<ul class="nav-list-2">\n'
+			else:
+				navString += '\t<li class="nav-list-item" name="'+key+'">\n'
+				navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
+				navString += '\t\t\t<ul class="nav-list-2">\n'
 			for l2dict in dict.get(key).get("list"):
 				navString += '\t\t\t\t<li><a name="'+l2dict.get("bucket")+'" href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
 
@@ -104,7 +108,9 @@ def buildMenu(dict):
 			diaryString += "</ul></div>\n"\
 							'<div class="diary-arrow arrow-down"></div></div>'
 
-			navString += '\t\t<a class="l1-a" href="'+defaultPage+'">'+dict.get(key).get("display")+'</a>\n'
+			navString += '\t<li class="nav-list-item desktop-only" name="'+key+'">\n'\
+						'\t\t<a class="l1-a-1" href="'+defaultPage+'">'+dict.get(key).get("display")+'</a>\n'\
+						'\t</li>\n'
 
 	navString +='\t<li class="bio-item">\n'\
 				'\t\t<a href="#">BIO</a></li>\n'\
@@ -128,7 +134,8 @@ def processIndexPage(dict):
 	path = output_dir
 	output_handle = open(path+ filename,'w')
 	page_file_handle = open(root_dir+"inc/index.tpl")
-	content = page_file_handle.read();
+	content = "<!--This page is cached on "+time2String(time.time())+"-->"+"\n";
+	content += page_file_handle.read();
 	content = content.replace('$NAV$',navString);
 	slides = '<div id="slides">\n'
 	for item in dict.get("index").get("pics"):
@@ -151,8 +158,8 @@ def processSinglePage(key,bucket,curList):
 		os.makedirs(path)
 	output_handle = open(path+ filename,'w')
 	page_file_handle = open(root_dir+"inc/single.tpl")
-	# output_handle.write(add_header(key)+"\n")
-	content = page_file_handle.read();
+	content = "<!--This page is cached on "+time2String(time.time())+"-->"+"\n";
+	content += page_file_handle.read();
 	content = content.replace("$NAV$",navString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):

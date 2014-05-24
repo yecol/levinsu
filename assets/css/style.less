@@ -59,7 +59,23 @@ a.fix{
 	}
 	a.fix{
 	color:gray;
-}
+	}
+	&.diary-nav{
+		div.diary-arrow{
+			&.arrow-up{
+				background: url("../img/up-b.png") 184px 31px no-repeat;
+			}
+			&.arrow-down{
+				background: url("../img/down-b.png") 184px 0 no-repeat;
+			}
+		}
+		div.diary-content{
+			background: url("../img/line-b.png") 191px 0 repeat-y;
+			ul li{
+				background: url("../img/point-b.png") 188px 0 no-repeat;
+			}
+		}
+	}
 }
 
 //nav
@@ -174,11 +190,17 @@ section.full-page{
 
 }
 
-.foot-nav{
+.mobile-only{
 	display: none;
 }
 
 @media (max-width: @mobile){
+	.mobile-only{
+		display: block;
+	}
+	.desktop-only{
+		display: none;
+	}
 	a,a:hover,a:active{
 		color: black;
 		text-decoration: none;

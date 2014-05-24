@@ -46,6 +46,18 @@ a.fix {
 .btheme a.fix {
   color: gray;
 }
+.btheme.diary-nav div.diary-arrow.arrow-up {
+  background: url("../img/up-b.png") 184px 31px no-repeat;
+}
+.btheme.diary-nav div.diary-arrow.arrow-down {
+  background: url("../img/down-b.png") 184px 0 no-repeat;
+}
+.btheme.diary-nav div.diary-content {
+  background: url("../img/line-b.png") 191px 0 repeat-y;
+}
+.btheme.diary-nav div.diary-content ul li {
+  background: url("../img/point-b.png") 188px 0 no-repeat;
+}
 nav {
   position: fixed;
   top: 75px;
@@ -141,10 +153,16 @@ section.full-page img:last-of-type {
   opacity: 0;
   line-height: 14px;
 }
-.foot-nav {
+.mobile-only {
   display: none;
 }
 @media (max-width: 750px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
   a,
   a:hover,
   a:active {
