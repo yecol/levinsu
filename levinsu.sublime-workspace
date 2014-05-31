@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background"
+			],
+			[
+				"di",
+				"diary-content"
+			],
+			[
+				"ar",
+				"arrow-down"
+			],
+			[
+				"diar",
+				"diary-arrow"
+			],
+			[
+				"mobi",
+				"mobile-only"
+			],
+			[
 				"bla",
 				"blackPages"
 			],
@@ -32,10 +52,6 @@
 				"overflow"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"active",
 				"activeA"
 			],
@@ -54,10 +70,6 @@
 			[
 				"to",
 				"toggle	.toggle()"
-			],
-			[
-				"di",
-				"diaryString"
 			],
 			[
 				"base",
@@ -415,7 +427,7 @@
 			"file": "inc/diary.tpl",
 			"settings":
 			{
-				"buffer_size": 5814,
+				"buffer_size": 6110,
 				"line_ending": "Windows"
 			}
 		},
@@ -439,7 +451,7 @@
 			"file": "inc/build.py",
 			"settings":
 			{
-				"buffer_size": 7055,
+				"buffer_size": 7594,
 				"line_ending": "Windows"
 			}
 		},
@@ -455,7 +467,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 4199,
+				"buffer_size": 4637,
 				"line_ending": "Windows"
 			}
 		},
@@ -463,7 +475,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 4429,
+				"buffer_size": 4488,
 				"line_ending": "Unix"
 			}
 		}
@@ -733,6 +745,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"open",
+			"'open'",
+			"open",
+			"mobile-only",
+			"mobile",
 			"fix",
 			"\"));\n",
 			"str",
@@ -870,15 +887,15 @@
 					"file": "inc/diary.tpl",
 					"settings":
 					{
-						"buffer_size": 5814,
+						"buffer_size": 6110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3307,
-								3087
+								2743,
+								2743
 							]
 						],
 						"settings":
@@ -891,7 +908,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1744.0,
+						"translation.y": 1254.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -908,39 +925,8 @@
 						"selection":
 						[
 							[
-								1507,
-								1507
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1650.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "inc/single.tpl",
-					"settings":
-					{
-						"buffer_size": 3975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								561,
-								554
+								1115,
+								1115
 							]
 						],
 						"settings":
@@ -959,19 +945,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "inc/build.py",
+					"buffer": 2,
+					"file": "inc/single.tpl",
 					"settings":
 					{
-						"buffer_size": 7055,
+						"buffer_size": 3975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4322,
-								4322
+								1581,
+								1287
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 569.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "inc/build.py",
+					"settings":
+					{
+						"buffer_size": 7594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4358,
+								4358
 							]
 						],
 						"settings":
@@ -983,7 +1000,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2706.0,
+						"translation.y": 4669.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1030,15 +1047,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 4199,
+						"buffer_size": 4637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1366,
-								1366
+								1692,
+								1692
 							]
 						],
 						"settings":
@@ -1049,8 +1066,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 709.0,
+						"translation.x": 22.0,
+						"translation.y": 973.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1060,7 +1077,7 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 4429,
+						"buffer_size": 4488,
 						"regions":
 						{
 						},
@@ -1117,7 +1134,7 @@
 		"cols":
 		[
 			0.0,
-			0.663549250662,
+			0.706075829774,
 			1.0
 		],
 		"rows":
