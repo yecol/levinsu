@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
-		<title>Levinsu.com</title>
+        <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+		<title>MO | LEIXUJUN OFFICIAL</title>
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
         <!--[if lt IE 9]>

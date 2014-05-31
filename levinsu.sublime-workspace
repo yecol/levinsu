@@ -427,7 +427,7 @@
 			"file": "inc/diary.tpl",
 			"settings":
 			{
-				"buffer_size": 6110,
+				"buffer_size": 6526,
 				"line_ending": "Windows"
 			}
 		},
@@ -435,7 +435,7 @@
 			"file": "inc/index.tpl",
 			"settings":
 			{
-				"buffer_size": 3601,
+				"buffer_size": 4017,
 				"line_ending": "Windows"
 			}
 		},
@@ -443,7 +443,7 @@
 			"file": "inc/single.tpl",
 			"settings":
 			{
-				"buffer_size": 3975,
+				"buffer_size": 4390,
 				"line_ending": "Windows"
 			}
 		},
@@ -475,7 +475,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 4488,
+				"buffer_size": 4988,
 				"line_ending": "Unix"
 			}
 		}
@@ -879,7 +879,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -887,15 +887,15 @@
 					"file": "inc/diary.tpl",
 					"settings":
 					{
-						"buffer_size": 6110,
+						"buffer_size": 6526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2743,
-								2743
+								6412,
+								6412
 							]
 						],
 						"settings":
@@ -908,7 +908,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1254.0,
+						"translation.y": 3476.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -918,15 +918,15 @@
 					"file": "inc/index.tpl",
 					"settings":
 					{
-						"buffer_size": 3601,
+						"buffer_size": 4017,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1115,
-								1115
+								3904,
+								3904
 							]
 						],
 						"settings":
@@ -939,7 +939,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2267.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -949,15 +949,15 @@
 					"file": "inc/single.tpl",
 					"settings":
 					{
-						"buffer_size": 3975,
+						"buffer_size": 4390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1581,
-								1287
+								4277,
+								4277
 							]
 						],
 						"settings":
@@ -970,7 +970,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 569.0,
+						"translation.y": 2373.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1077,7 +1077,7 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 4488,
+						"buffer_size": 4988,
 						"regions":
 						{
 						},
