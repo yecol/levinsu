@@ -424,18 +424,10 @@
 	"buffers":
 	[
 		{
-			"file": "inc/diary.tpl",
-			"settings":
-			{
-				"buffer_size": 6526,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "inc/index.tpl",
 			"settings":
 			{
-				"buffer_size": 4017,
+				"buffer_size": 4422,
 				"line_ending": "Windows"
 			}
 		},
@@ -443,7 +435,7 @@
 			"file": "inc/single.tpl",
 			"settings":
 			{
-				"buffer_size": 4390,
+				"buffer_size": 4830,
 				"line_ending": "Windows"
 			}
 		},
@@ -460,6 +452,14 @@
 			"settings":
 			{
 				"buffer_size": 11715,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inc/diary.tpl",
+			"settings":
+			{
+				"buffer_size": 6964,
 				"line_ending": "Windows"
 			}
 		},
@@ -600,13 +600,13 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/levinsu/inc/diary.tpl",
 		"/D/downloads/ml-knn/ml-knn/src/Knn.java",
 		"/D/xampp/htdocs/levinsu/inc/photos.cfg.txt",
 		"/D/xampp/htdocs/yecols.cn/inc/generate.py",
 		"/D/xampp/htdocs/levinsu/inc/index.tpl",
 		"/D/xampp/htdocs/levinsu/inc/build.py",
 		"/D/xampp/htdocs/levinsu/inc/single.tpl",
-		"/D/xampp/htdocs/levinsu/inc/diary.tpl",
 		"/D/xampp/htdocs/levinsu/architecture/1306yuzhenpalace/index.html",
 		"/D/Dropbox/Work/survey-latex/blinkdb-and-neo4j-survey.tex",
 		"/D/xampp/htdocs/levinsu/index.html",
@@ -879,23 +879,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "inc/diary.tpl",
+					"file": "inc/index.tpl",
 					"settings":
 					{
-						"buffer_size": 6526,
+						"buffer_size": 4422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6412,
-								6412
+								672,
+								0
 							]
 						],
 						"settings":
@@ -908,25 +908,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3476.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "inc/index.tpl",
+					"file": "inc/single.tpl",
 					"settings":
 					{
-						"buffer_size": 4017,
+						"buffer_size": 4830,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3904,
-								3904
+								705,
+								705
 							]
 						],
 						"settings":
@@ -939,44 +939,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2267.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "inc/single.tpl",
-					"settings":
-					{
-						"buffer_size": 4390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4277,
-								4277
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2373.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "inc/build.py",
 					"settings":
 					{
@@ -987,8 +956,8 @@
 						"selection":
 						[
 							[
-								4358,
-								4358
+								7591,
+								7591
 							]
 						],
 						"settings":
@@ -1000,13 +969,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4669.0,
+						"translation.y": 2293.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "inc/photos.cfg.txt",
 					"settings":
 					{
@@ -1032,6 +1001,37 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 6920.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "inc/diary.tpl",
+					"settings":
+					{
+						"buffer_size": 6964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1134,7 +1134,7 @@
 		"cols":
 		[
 			0.0,
-			0.706075829774,
+			0.939217867077,
 			1.0
 		],
 		"rows":
@@ -1181,6 +1181,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 81.0,
+	"side_bar_width": 286.0,
 	"status_bar_visible": true
 }

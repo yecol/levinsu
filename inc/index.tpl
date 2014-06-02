@@ -4,14 +4,28 @@
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
+        <meta name="keywords" content="MO, SUMO, LEVINSU, LEIXUJUN, DIARY, PORTRAIT, ARCHITECTURE, STILL LIFE, FASHION, DOCUMENTARY STYLE, ARCHITECTURE PHOTOGRAPHY, 苏墨, 雷徐君, 建筑, 建筑摄影">
+        <meta name="description" content="SUMO | LEIXUJUN OFFICIAL" />
+
         <link rel="shortcut icon" href="/assets/img/favicon.ico" />
-		<title>MO | LEIXUJUN OFFICIAL</title>
+		<title>MO | LEIXUJUN</title>
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
         <!--[if lt IE 9]>
         <script src="assets/js/html5shiv.js"></script>
         <script src="assets/js/respond.min.js"></script>
         <![endif]-->
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-51513242-1', 'mo-pic.com');
+          ga('send', 'pageview');
+        
+        </script>
 
 	</head>
 	<body>
@@ -115,19 +129,6 @@ $(document).ready(function(){
       });
 });
 </script>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51513242-1', 'mo-pic.com');
-  ga('send', 'pageview');
-
-</script>
-
 	</body>
 </html>
 <!-- ====================================END OF FOOTERFILE====================================
