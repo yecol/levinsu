@@ -14,7 +14,7 @@ else:
 	#dev-env
 	root_dir = "../"
 output_dir = root_dir
-imageBase = "http://mo-cdn.b0.upaiyun.com"
+imageBase = "http://cdn1.mo-pic.com"
 filename = "index.html"
 
 curTime = time.localtime()
@@ -68,49 +68,50 @@ def buildMenu(dict):
 	navString = '<nav class="site-nav $THEME$" tabindex="-1">\n'\
 				'<ul class="nav-list">\n'
 
-	diaryString = '<div class="diary-nav $THEME$ desktop-only">\n'\
-					'<div class="diary-arrow arrow-up"></div>\n'\
-					'<div class="diary-content">\n'\
-					'<ul>\n'
+	# diaryString = '<div class="diary-nav $THEME$ desktop-only">\n'\
+					# '<div class="diary-arrow arrow-up"></div>\n'\
+					# '<div class="diary-content">\n'\
+					# '<ul>\n'
 
 	for key in dict.keys():
 
 		if key=="index":
 			navString += '\t<li class="nav-list-item" name="index"><a class="l1-a" href="#"></a></li>\n'
 		else:		
-			if(key == "diary"):
-				navString += '\t<li class="nav-list-item mobile-only" name="'+key+'">\n'
-				navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
-				navString += '\t\t\t<ul class="nav-list-2">\n'
-			else:
-				navString += '\t<li class="nav-list-item" name="'+key+'">\n'
-				navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
-				navString += '\t\t\t<ul class="nav-list-2">\n'
+			# if(key == "diary"):
+				# navString += '\t<li class="nav-list-item mobile-only" name="'+key+'">\n'
+				# navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
+				# navString += '\t\t\t<ul class="nav-list-2">\n'
+			# else:
+			navString += '\t<li class="nav-list-item" name="'+key+'">\n'
+			navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
+			navString += '\t\t\t<ul class="nav-list-2">\n'
+			
 			for l2dict in dict.get(key).get("list"):
 				navString += '\t\t\t\t<li><a name="'+l2dict.get("bucket")+'" href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
 
 			navString += '\t\t\t</ul>\n'
 		navString +="\t</li>\n"	
 			# navString += l2dict.bucket
-		if key=="diary":
-			basetime = ''
-			defaultPage = ''
-			offset = 0
-			for l2dict in dict.get(key).get("list"):
-				if basetime!='':
-					offset = min(100,round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin))
-					# print offset
-				diaryString += '<li style="margin-top:'+str(offset)+'px"><a href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
-				basetime = l2dict.get("date")
-				defaultPage = "/"+key+"/"+l2dict.get("bucket")
+		# if key=="diary":
+			# basetime = ''
+			# defaultPage = ''
+			# offset = 0
+			# for l2dict in dict.get(key).get("list"):
+				# if basetime!='':
+					# offset = min(100,round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin))
+					# # print offset
+				# diaryString += '<li style="margin-top:'+str(offset)+'px"><a href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
+				# basetime = l2dict.get("date")
+				# defaultPage = "/"+key+"/"+l2dict.get("bucket")
 
 
-			diaryString += "</ul></div>\n"\
-							'<div class="diary-arrow arrow-down"></div></div>'
+			# diaryString += "</ul></div>\n"\
+							# '<div class="diary-arrow arrow-down"></div></div>'
 
-			navString += '\t<li class="nav-list-item desktop-only" name="'+key+'">\n'\
-						'\t\t<a class="l1-a-1" href="'+defaultPage+'">'+dict.get(key).get("display")+'</a>\n'\
-						'\t</li>\n'
+			# navString += '\t<li class="nav-list-item desktop-only" name="'+key+'">\n'\
+						# '\t\t<a class="l1-a-1" href="'+defaultPage+'">'+dict.get(key).get("display")+'</a>\n'\
+						# '\t</li>\n'
 
 	navString +='\t<li class="bio-item">\n'\
 				'\t\t<a href="#">BIO</a></li>\n'\
@@ -139,7 +140,7 @@ def processIndexPage(dict):
 	content = content.replace('$NAV$',navString);
 	slides = '<div id="slides">\n'
 	for item in dict.get("index").get("pics"):
-		slides +='<img src="'+imageBase+'/index/'+item+'"/>\n'
+		slides +='<img src="'+imageBase+'/index/'+item+'!2048"/>\n'
 	slides += "</div>"
 	content = content.replace('$SLIDES$',slides);
 	output_handle.write(content);
@@ -163,7 +164,7 @@ def processSinglePage(key,bucket,curList):
 	content = content.replace("$NAV$",navString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
-		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
+		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'!2048" />\n'
 	imageString +="</section>"
 	content = content.replace("$PHOTOS$",imageString);
 	if(blackPages.has_key(key+"/"+bucket)):
@@ -192,7 +193,7 @@ def processDiaryPage(key,bucket,curList):
 	content = "<!--This page is cached on "+time2String(time.time())+"-->"+"\n";
 	content += page_file_handle.read();
 	content = content.replace("$NAV$",navString);
-	content = content.replace("$DIARY$",diaryString);
+	# content = content.replace("$DIARY$",diaryString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
 		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'" />\n'
@@ -217,10 +218,10 @@ if __name__ == '__main__':
 	print str(blackPages);
 	processIndexPage(dict);
 	for key in dict.keys():
-		if key =="diary":
-			for listItem in dict.get(key).get("list"):
-				processDiaryPage(key,listItem.get("bucket"),listItem)
-		elif key!="index":
+		# if key =="diary":
+			# for listItem in dict.get(key).get("list"):
+				# processDiaryPage(key,listItem.get("bucket"),listItem)
+		if key!="index":
 			for listItem in dict.get(key).get("list"):
 				processSinglePage(key,listItem.get("bucket"),listItem)
 	print "build successful."
