@@ -153,6 +153,48 @@ section.full-page img:last-of-type {
   opacity: 0;
   line-height: 14px;
 }
+.contact-div {
+  display: none;
+  position: fixed;
+  top: 20px;
+  left: 60px;
+  z-index: 500;
+  height: 80px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 40px;
+}
+.contact-div p {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.contact-div p.wbwx {
+  padding-top: 10px;
+}
+.contact-div .close-contact-div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.d2-code {
+  position: fixed;
+  top: 20px;
+  left: 60px;
+  z-index: 500;
+  height: 120px;
+  width: 120px;
+  display: none;
+}
+.d2-code.wb-code {
+  background: url("../img/wb.png") 0 0 no-repeat;
+  background-size: 120px 120px;
+}
+.d2-code.wx-code {
+  background: url("../img/wx.png") 0 0 no-repeat;
+  background-size: 120px 120px;
+}
 .mobile-only {
   display: none;
 }

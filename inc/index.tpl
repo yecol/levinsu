@@ -9,6 +9,7 @@
 
         <link rel="shortcut icon" href="/assets/img/favicon.ico" />
 		<title>MO | LEIXUJUN</title>
+        <link type="text/css" rel="stylesheet" href="/assets/css/animate.min.css">
 		<link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
         <!--[if lt IE 9]>
@@ -33,6 +34,20 @@
 
         $SLIDES$
         $NAV$
+
+<div class="contact-div animated fadeInDown">
+    <a class="close-contact-div" href="#">X</a>
+    <div class="wording">
+        <p>EMAIL INFO@MO-PIC.COM</p>
+        <p>TEL +86 18611550991</p>
+        <p>SITE WWW.MO-PIC.COM</p>
+        <p class="wbwx"><a class="wb-link" href="#">WB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="wx-link" href="#">WX</a></p>
+    </div>
+</div>
+<div class="wx-code d2-code">
+</div>
+<div class="wb-code d2-code">
+</div>
         
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
@@ -83,9 +98,33 @@ $(document).ready(function(){
         });
     }
 
-    // $("img").lazyload({
-    //   threshold : 400
-    // });
+    //set the correct position for contact
+    contactLeft = ($(window).width()-380)/2;
+    contactTop = ($(window).height()-120)/2;
+
+    $(".contact-div").css({
+        top: contactTop,
+        left: contactLeft
+    });
+
+    $(".d2-code").css({
+        top: contactTop,
+        left: contactLeft+380
+    });
+
+    $(".contact-item").click(function(event) {
+        $(".contact-div").show();
+    });
+
+    $(".close-contact-div").click(function(event) {
+        $(".contact-div").hide();
+        $(".wx-code").hide();
+        $(".wb-code").hide();
+    });
+
+    $(".wx-link").click(function(event) {
+        $(".wx-code").fadeIn("600");
+    });
 
     $('.nav-list').accordion({
         handle: ".l1-a", // Default: "h3"
@@ -103,7 +142,7 @@ $(document).ready(function(){
 
     $('#slides').slidesjs({
         width: 1280,
-        height: 960,
+        height: 853,
         navigation: {
           active:false
         },
