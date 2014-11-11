@@ -7,14 +7,15 @@ from collections import OrderedDict
 ISOTIMEFORMAT="%Y-%m-%d %X"
 ISODATEFORMAT="%Y-%m-%d"
 pwd = os.getcwd();
-if os.name == "posix":
+RELEASE = False;
+if RELEASE:
 	#deploy-env
 	root_dir = "/var/www/html/"
 else:
 	#dev-env
 	root_dir = "../"
 output_dir = root_dir
-imageBase = "http://mo-img.b0.upaiyun.com"
+imageBase = "http://cdn1.mo-pic.com"
 filename = "index.html"
 
 curTime = time.localtime()
