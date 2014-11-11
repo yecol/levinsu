@@ -1,6 +1,7 @@
 @import "reset.css";
 
 @cfg-margin:80px;
+@mobile:750px;
 
 @font-face {
     font-family: 'helvetica-thin';
@@ -34,6 +35,10 @@ a,a:hover,a:active{
 	text-decoration: none;
 }
 
+a.fix{
+	color:gray;
+}
+
 .site-logo{
 	top: 75px;
 	left: 60px;
@@ -45,6 +50,32 @@ a,a:hover,a:active{
 	text-align: center;
 	border: 0;
 	font-size: 30px;
+}
+
+// black theme
+.btheme{
+	a,a:hover,a:active{
+		color:black;
+	}
+	a.fix{
+	color:gray;
+	}
+	&.diary-nav{
+		div.diary-arrow{
+			&.arrow-up{
+				background: url("../img/up-b.png") 184px 31px no-repeat;
+			}
+			&.arrow-down{
+				background: url("../img/down-b.png") 184px 0 no-repeat;
+			}
+		}
+		div.diary-content{
+			background: url("../img/line-b.png") 191px 0 repeat-y;
+			ul li{
+				background: url("../img/point-b.png") 188px 0 no-repeat;
+			}
+		}
+	}
 }
 
 //nav
@@ -84,7 +115,7 @@ nav{
  			margin: 0;
  			padding: 0;
  			height: 16px;
- 			width: 200px;
+ 			width: 300px;
 			overflow: hidden;
 			text-align:left;
 
@@ -94,7 +125,6 @@ nav{
 				line-height: 12px;
 				text-decoration: none;
 				font-size: 12px;
-				text-shadow: 0 0 0 rgba(0, 0, 0, .6);
  			}
 
 
@@ -108,7 +138,11 @@ section.full-page{
 		width: 100%;
 		margin-bottom: @cfg-margin;
 	}
+	img:last-of-type{
+		margin-bottom:0;
+	}
 }
+
 #slides{
 	display: none;
 	width: 100%;
@@ -116,7 +150,7 @@ section.full-page{
 
 .diary-nav{
 	width: 200px;
-	height: 400px;
+	height: 280px;
 	position: fixed;
 	top: 130px;
 	right: 60px;
@@ -154,4 +188,99 @@ section.full-page{
 		}
 	}
 
+}
+
+.mobile-only{
+	display: none;
+}
+
+@media (max-width: @mobile){
+	.mobile-only{
+		display: block;
+	}
+	.desktop-only{
+		display: none;
+	}
+	a,a:hover,a:active{
+		color: black;
+		text-decoration: none;
+	}
+	.site-logo{
+		text-align: left;
+		position: relative;
+		display: block;
+		float: left;
+		z-index: 700;
+		left: 0;
+		top: 0;
+		color: black;
+		width: 100px;
+		margin: 20px auto 20px 20px;
+		font-size: 25px;
+	}
+	section.full-page{
+		position: relative;
+		z-index: 0;
+		width: 100%;
+        margin: 0 auto;
+		img{
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+	#slides{
+		z-index: 0;
+		float: left;
+		position: relative;
+	}
+	.site-nav{
+		float: left;
+		position: relative;
+		display: block;
+		color: black;
+		z-index:0;
+		top: 0;
+		left: 0;
+		.nav-list{
+			margin: 25px auto auto 20px;
+		}
+		li{
+			&.bio-item,
+			&.contact-item{
+				display: none;
+			}
+		}
+	}
+	.foot-nav{
+		top: 0;
+		left: 0;
+		float: left;
+		position: relative;
+		display: block;
+		width: 100%;
+		color: white;
+		background-color: black;
+		height: 70px;
+		list-style: none;
+		margin-top: 20px;
+		li{
+			margin: 12px 0 0 20px;
+			letter-spacing: 1px;
+			
+			&.bio-item{
+ 				margin-top: 21px;
+ 				font-size: 10px;
+ 				a{
+ 					color: white;
+ 				}
+ 			}
+ 			&.contact-item{
+				font-size: 10px;
+				margin-top: 9px;
+				a{
+ 					color: white;
+ 				}
+ 			}
+		}
+	}
 }
