@@ -7,7 +7,8 @@ from collections import OrderedDict
 ISOTIMEFORMAT="%Y-%m-%d %X"
 ISODATEFORMAT="%Y-%m-%d"
 pwd = os.getcwd();
-if os.name == "posix":
+RELEASE = False;
+if RELEASE:
 	#deploy-env
 	root_dir = "/var/www/mopic/"
 else:
