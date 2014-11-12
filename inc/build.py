@@ -127,8 +127,8 @@ def buildMenu(dict):
 					<li class="contact-item-mobile">
 						<a href="#" class="contact-mobile-expand">CONTACT</a>
 							<div class="mobile-only contact-mobile-detail">
-       							<p>EMAIL&nbsp;INFO@MO-PIC.COM</p>
-       							<p>TEL&nbsp;+86 18521092134</p>
+                                <p>TEL&nbsp;&nbsp;+86 185 2109 2134</p>
+       							<p>EMAIL&nbsp;&nbsp;&nbsp;INFO@MO-PIC.COM</p>
     						</div>
 					</li>	
 				</ul>
@@ -140,7 +140,7 @@ def buildMenu(dict):
         				<p>EMAIL&nbsp;&nbsp;INFO@MO-PIC.COM</p>
         				<p>TEL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+86 185 2109 2134</p>
         				<p>SITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WWW.MO-PIC.COM</p>
-        				<p class="wbwx"><a class="wb-link" href="#">WB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="wx-link" href="#">WX</a></p>
+        				<p class="wbwx"><a class="wb-link" href="http://weibo.com/mopictures" target="blank">WB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="wx-link" href="#">WX</a></p>
     				</div>
 				</div>
 				<div class="wx-code d2-code desktop-only">
