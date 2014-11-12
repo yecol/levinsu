@@ -127,7 +127,7 @@ def buildMenu(dict):
 					<li class="contact-item-mobile">
 						<a href="#" class="contact-mobile-expand">CONTACT</a>
 							<div class="mobile-only contact-mobile-detail">
-                                <p>TEL&nbsp;&nbsp;+86 185 2109 2134</p>
+                                <p>TEL&nbsp;&nbsp;&nbsp;+86 18521092134</p>
        							<p>EMAIL&nbsp;&nbsp;&nbsp;INFO@MO-PIC.COM</p>
     						</div>
 					</li>	
