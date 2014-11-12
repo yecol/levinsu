@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
-        <meta name="keywords" content="MO, SUMO, LEVINSU, LEIXUJUN, DIARY, PORTRAIT, ARCHITECTURE, STILL LIFE, FASHION, DOCUMENTARY STYLE, ARCHITECTURE PHOTOGRAPHY, 苏墨, 雷徐君, 建筑, 建筑摄影">
+        <meta name="keywords" content="MO, SUMO, LEIXUJUN, ARCHITECTURE, ARCHITECTURAL PHOTOGRAPHY, MOAP, MO ARCHITECTURAL PHOTOGRAPHY, MOPIC, MOAP PRODUCTION, MOPIC PRODUCTION, SHANGHAI, 苏墨, 雷徐君, 建筑, 建筑摄影, 墨象, 墨相, 上海">
         <meta name="description" content="SUMO | LEIXUJUN OFFICIAL" />
 
         <link rel="shortcut icon" href="/assets/img/favicon.ico" />
@@ -34,20 +34,6 @@
 
         $PHOTOS$
         $NAV$
-
-<div class="contact-div animated fadeInDown">
-    <a class="close-contact-div" href="#">X</a>
-    <div class="wording">
-        <p>EMAIL INFO@MO-PIC.COM</p>
-        <p>TEL +86 18611550991</p>
-        <p>SITE WWW.MO-PIC.COM</p>
-        <p class="wbwx"><a class="wb-link" href="#">WB</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="wx-link" href="#">WX</a></p>
-    </div>
-</div>
-<div class="wx-code d2-code">
-</div>
-<div class="wb-code d2-code">
-</div>
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer></footer>
@@ -166,6 +152,19 @@ $(document).ready(function(){
         easing: "easeInOutQuad", // Default "swing"
         canOpenMultiple: false, // Default: false
         canToggle: false, // Default: false
+        activeClassPanel: "open", // Default: "open"
+        activeClassLi: "active", // Default: "active"
+        lockedClass: "locked", // Default: "locked"
+        loadingClass: "loading" // Default: "loading"
+    });
+
+    $('.foot-nav-mobile').accordion({
+        handle: ".contact-mobile-expand", // Default: "h3"
+        panel: ".contact-mobile-detail", // Default: ".panel"
+        speed: 500, // Default: 200
+        easing: "easeInOutQuad", // Default "swing"
+        canOpenMultiple: false, // Default: false
+        canToggle: true, // Default: false
         activeClassPanel: "open", // Default: "open"
         activeClassLi: "active", // Default: "active"
         lockedClass: "locked", // Default: "locked"

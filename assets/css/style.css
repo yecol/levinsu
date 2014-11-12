@@ -165,10 +165,13 @@ section.full-page img:last-of-type {
   color: white;
   padding: 20px 40px;
 }
+.contact-div .wording {
+  padding-top: 10px;
+}
 .contact-div p {
   letter-spacing: 1px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .contact-div p.wbwx {
   padding-top: 10px;
@@ -187,13 +190,14 @@ section.full-page img:last-of-type {
   width: 120px;
   display: none;
 }
-.d2-code.wb-code {
-  background: url("../img/wb.png") 0 0 no-repeat;
-  background-size: 120px 120px;
-}
 .d2-code.wx-code {
   background: url("../img/wx.png") 0 0 no-repeat;
   background-size: 120px 120px;
+}
+.contact-mobile-detail {
+  font-size: 10px;
+  text-align: right;
+  padding: 10px 10px 0 10px;
 }
 .mobile-only {
   display: none;
@@ -255,7 +259,7 @@ section.full-page img:last-of-type {
   .site-nav li.contact-item {
     display: none;
   }
-  .foot-nav {
+  .foot-nav-mobile {
     top: 0;
     left: 0;
     float: left;
@@ -264,26 +268,27 @@ section.full-page img:last-of-type {
     width: 100%;
     color: white;
     background-color: black;
-    height: 70px;
     list-style: none;
     margin-top: 20px;
   }
-  .foot-nav li {
+  .foot-nav-mobile li {
     margin: 12px 0 0 20px;
     letter-spacing: 1px;
   }
-  .foot-nav li.bio-item {
+  .foot-nav-mobile li.bio-item-mobile {
     margin-top: 21px;
     font-size: 10px;
   }
-  .foot-nav li.bio-item a {
+  .foot-nav-mobile li.bio-item-mobile a {
     color: white;
   }
-  .foot-nav li.contact-item {
+  .foot-nav-mobile li.contact-item-mobile {
     font-size: 10px;
     margin-top: 9px;
+    margin-bottom: 15px;
+    line-height: 16px;
   }
-  .foot-nav li.contact-item a {
+  .foot-nav-mobile li.contact-item-mobile a {
     color: white;
   }
 }
