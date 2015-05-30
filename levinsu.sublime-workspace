@@ -407,7 +407,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 14249,
 				"line_ending": "Unix"
 			}
 		},
@@ -431,7 +431,7 @@
 			"file": "inc/build.py",
 			"settings":
 			{
-				"buffer_size": 8472,
+				"buffer_size": 8555,
 				"line_ending": "Unix"
 			}
 		},
@@ -439,7 +439,7 @@
 			"file": "index-test.html",
 			"settings":
 			{
-				"buffer_size": 13991,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -455,7 +455,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 5736,
+				"buffer_size": 5875,
 				"line_ending": "Unix"
 			}
 		}
@@ -850,15 +850,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 14249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9106,
+								8910
 							]
 						],
 						"settings":
@@ -866,10 +866,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2216.0,
+						"translation.y": 3635.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -941,15 +943,15 @@
 					"file": "inc/build.py",
 					"settings":
 					{
-						"buffer_size": 8472,
+						"buffer_size": 8555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4299,
-								4299
+								4160,
+								4160
 							]
 						],
 						"settings":
@@ -961,7 +963,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1898.0,
+						"translation.y": 1829.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -971,15 +973,15 @@
 					"file": "index-test.html",
 					"settings":
 					{
-						"buffer_size": 13991,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9525,
-								8662
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1036,7 +1038,7 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 5736,
+						"buffer_size": 5875,
 						"regions":
 						{
 						},

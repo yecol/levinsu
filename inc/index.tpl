@@ -163,6 +163,11 @@ $(document).ready(function(){
             }
         }
       });
+
+    if($(".foot-nav-mobile").offset().top+$(".foot-nav-mobile").height()<$(window).height()){
+        $(".foot-nav-mobile").height($(window).height()-$(".foot-nav-mobile").offset().top);
+    }
+
 });
 </script>
 	</body>

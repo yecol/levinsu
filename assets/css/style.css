@@ -111,6 +111,15 @@ section.full-page img {
 section.full-page img:last-of-type {
   margin-bottom: 0;
 }
+section.full-page .wording {
+  text-align: right;
+  padding-top: 80px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+section.full-page .wording p {
+  margin-bottom: 10px;
+}
 #slides {
   display: none;
   width: 100%;

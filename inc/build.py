@@ -1,7 +1,9 @@
 #!/bin/env python
 # -*- coding: utf-8 -*-
-import os,yaml,time,datetime,commands,collections
+import os,sys,yaml,time,datetime,commands,collections
 from collections import OrderedDict
+reload(sys)  
+sys.setdefaultencoding('utf8')  
 
 #config
 ISOTIMEFORMAT="%Y-%m-%d %X"
@@ -186,7 +188,16 @@ def processSinglePage(key,bucket,curList):
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
 		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'!2048" />\n'
+	
+	if(curList.has_key("words")):
+		wordingString = "<div class='wording'>"
+		for para in curList.get("words"):
+			wordingString+="<p>"+para+"</p>";
+		wordingString +="</div>";
+		imageString+=wordingString;
+
 	imageString +="</section>"
+
 	content = content.replace("$PHOTOS$",imageString);
 	if(blackPages.has_key(key+"/"+bucket)):
 		# this page is set to be blackfont

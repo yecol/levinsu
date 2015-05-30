@@ -180,6 +180,10 @@ $(document).ready(function(){
         clearInterval(timeID);
     }
     );
+
+    if($(".foot-nav-mobile").offset().top+$(".foot-nav-mobile").height()<$(window).height()){
+        $(".foot-nav-mobile").height($(window).height()-$(".foot-nav-mobile").offset().top);
+    }
 });
 </script>
 	</body>

@@ -28,6 +28,10 @@ diary:
     pics: 
       - 140576_07941_24001.jpg
       - 140630_07941_24002.jpg
+    words: 
+      - 我怀念的是无话不说，我怀念的是没有争斗。
+      - 我怀念的是争吵以后还能叉叉叉。
+      - English is OK as well.
 
   - date: 2014-07-03
     display: LU QUANLI 03 JUL. 14
