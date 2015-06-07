@@ -114,8 +114,8 @@ section.full-page img:last-of-type {
 section.full-page .wording {
   text-align: right;
   padding-top: 80px;
-  margin-bottom: 70px;
-  margin-right: 20px;
+  margin-bottom: 25px;
+  margin-right: 60px;
 }
 section.full-page .wording p {
   margin-bottom: 10px;
@@ -246,6 +246,9 @@ section.full-page .wording p {
   section.full-page img {
     width: 100%;
     margin-bottom: 20px;
+  }
+  section.full-page .wording {
+    padding-top: 20px;
   }
   #slides {
     z-index: 0;
