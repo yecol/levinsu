@@ -162,6 +162,26 @@ section.full-page .wording p {
   opacity: 0;
   line-height: 14px;
 }
+.beian {
+  width: 220px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.beian a {
+  background-image: url("../img/beian.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-decoration: none;
+  height: 20px;
+  line-height: 20px;
+}
+.beian p {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin: 0px 0px 0px 35px;
+  color: #939393;
+}
 .contact-div {
   display: none;
   position: fixed;
