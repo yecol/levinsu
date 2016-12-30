@@ -91,6 +91,10 @@ nav{
 		li{
 			margin: 12px 0 0 0;
 			letter-spacing: 1px;
+
+			&[name="ridge"]{
+				margin-top: 45px;
+			}
 			
 			&.bio-item{
  				margin-top: 55px;
@@ -200,7 +204,7 @@ section.full-page{
 }
 
 .beian{
-	width:220px;
+	width:250px;
 	margin:0 auto; 
 	padding:10px 0;
 	a{
@@ -315,15 +319,20 @@ section.full-page{
 		position: relative;
 	}
 	.site-nav{
-		float: left;
+		float: right;
 		position: relative;
 		display: block;
 		color: black;
 		z-index:0;
 		top: 0;
 		left: 0;
+		padding-right: 15px;
 		.nav-list{
 			margin: 25px auto auto 20px;
+			text-align: right;
+			a{
+				text-align: right;
+			}
 		}
 		li{
 			&.bio-item,
@@ -344,8 +353,9 @@ section.full-page{
 				list-style: none;
 		margin-top: 20px;
 		li{
-			margin: 12px 0 0 20px;
+			margin: 12px 15px 0 20px;
 			letter-spacing: 1px;
+			text-align: right;
 			
 			&.bio-item-mobile{
  				margin-top: 21px;

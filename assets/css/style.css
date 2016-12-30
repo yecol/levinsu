@@ -71,6 +71,9 @@ nav .nav-list li {
   margin: 12px 0 0 0;
   letter-spacing: 1px;
 }
+nav .nav-list li[name="ridge"] {
+  margin-top: 45px;
+}
 nav .nav-list li.bio-item {
   margin-top: 55px;
   font-size: 10px;
@@ -163,7 +166,7 @@ section.full-page .wording p {
   line-height: 14px;
 }
 .beian {
-  width: 220px;
+  width: 250px;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -276,16 +279,21 @@ section.full-page .wording p {
     position: relative;
   }
   .site-nav {
-    float: left;
+    float: right;
     position: relative;
     display: block;
     color: black;
     z-index: 0;
     top: 0;
     left: 0;
+    padding-right: 15px;
   }
   .site-nav .nav-list {
     margin: 25px auto auto 20px;
+    text-align: right;
+  }
+  .site-nav .nav-list a {
+    text-align: right;
   }
   .site-nav li.bio-item,
   .site-nav li.contact-item {
@@ -304,8 +312,9 @@ section.full-page .wording p {
     margin-top: 20px;
   }
   .foot-nav-mobile li {
-    margin: 12px 0 0 20px;
+    margin: 12px 15px 0 20px;
     letter-spacing: 1px;
+    text-align: right;
   }
   .foot-nav-mobile li.bio-item-mobile {
     margin-top: 21px;

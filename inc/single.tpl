@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" user-scalable="no">
-        <meta name="keywords" content="MO, SUMO, LEIXUJUN, ARCHITECTURE, ARCHITECTURAL PHOTOGRAPHY, MOAP, MO ARCHITECTURAL PHOTOGRAPHY, MOPIC, MOAP PRODUCTION, MOPIC PRODUCTION, SHANGHAI, 苏墨, 雷徐君, 建筑, 建筑摄影, 墨象, 墨相, 上海">
-        <meta name="description" content="SUMO | LEIXUJUN OFFICIAL" />
+        <meta name="keywords" content="LEIXUJUN, OFFICIAL, MO, MOPIC, 雷徐君, 中国">
+        <meta name="description" content="LEIXUJUN OFFICIAL" />
 
         <link rel="shortcut icon" href="/assets/img/favicon.ico" />
-        <title>MO | LEIXUJUN</title>
+        <title>LEIXUJUN</title>
         <link type="text/css" rel="stylesheet" href="/assets/css/animate.min.css">
         <link type="text/css" rel="stylesheet" href="/assets/css/style.css">
 
@@ -37,7 +37,7 @@
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
 <footer>
-        <div class="beian">
+        <div class="beian desktop-only">
             <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33118102000116"><p>浙公网安备 33118102000116号</p></a>
         </div>
 </footer>
