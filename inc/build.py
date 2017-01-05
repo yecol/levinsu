@@ -91,7 +91,8 @@ def buildMenu(dict):
 			navString += '\t\t\t<ul class="nav-list-2">\n'
 			
 			for l2dict in dict.get(key).get("list"):
-				navString += '\t\t\t\t<li><a name="'+l2dict.get("bucket")+'" href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
+				# print l2dict.get("bucket"), l2dict.get("display")
+				navString += '\t\t\t\t<li><a name="'+str(l2dict.get("bucket"))+'" href="/'+key+'/'+str(l2dict.get("bucket"))+'/">'+str(l2dict.get("display"))+'</a></li>\n'
 
 			navString += '\t\t\t</ul>\n'
 		navString +="\t</li>\n"	
@@ -177,7 +178,7 @@ def processSinglePage(key,bucket,curList):
 	#affected pages : about, portfolio
 	
 	print time2String(time.time())+"\tINFO\t"+"Processing single page ["+ key +"]"
-	path = output_dir + key +"/"+bucket+"/"
+	path = output_dir + key +"/"+str(bucket)+"/"
 	if not os.path.exists(path):
 		os.makedirs(path)
 	output_handle = open(path+ filename,'w')
@@ -187,7 +188,7 @@ def processSinglePage(key,bucket,curList):
 	content = content.replace("$NAV$",navString);
 	imageString = "<section class='full-page'>\n"
 	for item in curList.get("pics"):
-		imageString+='<img src="'+imageBase+'/'+key+'/'+bucket+'/'+item+'!2048" />\n'
+		imageString+='<img src="'+imageBase+'/'+key+'/'+str(bucket)+'/'+item+'!2048" />\n'
 	
 	if(curList.has_key("words")):
 		wordingString = "<div class='wording'>"
@@ -199,7 +200,7 @@ def processSinglePage(key,bucket,curList):
 	imageString +="</section>"
 
 	content = content.replace("$PHOTOS$",imageString);
-	if(blackPages.has_key(key+"/"+bucket)):
+	if(blackPages.has_key(key+"/"+str(bucket))):
 		# this page is set to be blackfont
 		content = content.replace("$THEME$","btheme");
 	else:
