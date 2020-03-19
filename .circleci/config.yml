@@ -1,0 +1,40 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7.14
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run:
+          name: install dependencies
+          command: |
+            sudo pip install exifread, pyyaml
+        
+      - run:
+          name: build the web
+          command: |
+            cd inc
+            python build.py
+            
+      - run:
+          name: push to gh-pages
+          command: |
+            git config user.email "xujb1987@gmail.com"
+            git config user.name "yecol"
+            git branch -D gh-pages || true
+            git checkout -b gh-pages
+            git add .
+            git commit -a -m "auto build from $CIRCLE_SHA1."
+            git push -f origin gh-pages
+          
+workflows:
+  version: 2
+  deploy-web:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
