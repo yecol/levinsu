@@ -81,41 +81,19 @@ def buildMenu(dict):
 		if key=="index":
 			navString += '\t<li class="nav-list-item" name="index"><a class="l1-a" href="#"></a></li>\n'
 		else:		
-			# if(key == "diary"):
-				# navString += '\t<li class="nav-list-item mobile-only" name="'+key+'">\n'
-				# navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
-				# navString += '\t\t\t<ul class="nav-list-2">\n'
-			# else:
 			navString += '\t<li class="nav-list-item" name="'+key+'">\n'
 			navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
+			
 			navString += '\t\t\t<ul class="nav-list-2">\n'
 			
 			for l2dict in dict.get(key).get("list"):
-				# print l2dict.get("bucket"), l2dict.get("display")
-				navString += '\t\t\t\t<li><a name="'+str(l2dict.get("bucket"))+'" href="/'+key+'/'+str(l2dict.get("bucket"))+'/">'+str(l2dict.get("display"))+'</a></li>\n'
+				if not l2dict.get("type") is None:
+					navString += '\t\t\t\t<li><a href="/pdf/'+str(l2dict.get("link"))+'">'+str(l2dict.get("display"))+'</a></li>\n'
+				else:
+					navString += '\t\t\t\t<li><a name="'+str(l2dict.get("bucket"))+'" href="/'+key+'/'+str(l2dict.get("bucket"))+'/">'+str(l2dict.get("display"))+'</a></li>\n'
 
 			navString += '\t\t\t</ul>\n'
 		navString +="\t</li>\n"	
-			# navString += l2dict.bucket
-		# if key=="diary":
-			# basetime = ''
-			# defaultPage = ''
-			# offset = 0
-			# for l2dict in dict.get(key).get("list"):
-				# if basetime!='':
-					# offset = min(100,round(offsetTime(str(basetime),str(l2dict.get("date")))*baseLiMargin))
-					# # print offset
-				# diaryString += '<li style="margin-top:'+str(offset)+'px"><a href="/'+key+'/'+l2dict.get("bucket")+'/">'+l2dict.get("display")+'</a></li>\n'
-				# basetime = l2dict.get("date")
-				# defaultPage = "/"+key+"/"+l2dict.get("bucket")
-
-
-			# diaryString += "</ul></div>\n"\
-							# '<div class="diary-arrow arrow-down"></div></div>'
-
-			# navString += '\t<li class="nav-list-item desktop-only" name="'+key+'">\n'\
-						# '\t\t<a class="l1-a-1" href="'+defaultPage+'">'+dict.get(key).get("display")+'</a>\n'\
-						# '\t</li>\n'
 
 	navString +='\t<li class="bio-item">\n'\
 				'\t\t<a href="#">BIO</a></li>\n'\
@@ -174,6 +152,8 @@ def processIndexPage(dict):
 
 def processSinglePage(key,bucket,curList):
 	
+	if bucket is None:
+		return;
 	#generate a single file with key
 	#affected pages : about, portfolio
 	

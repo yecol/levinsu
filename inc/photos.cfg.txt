@@ -1189,7 +1189,6 @@ portrait:
       - 18571_09008_18015664.jpg
 
 
-
   - display: LEI XIAOJUN. 18
     bucket: leixiaojun
     pics:
@@ -1966,17 +1965,14 @@ ridge:
       - 18578_02002_26012616.jpg
 
 
-
-
-
-
-
-
-
 zine:
   display: ZINE
   bucket: zine
   list:
+  
+  - display: XXXPDF
+    type: pdf
+    link: 1.pdf
   - display:  / COMING SOON
     bucket: comingsoon
     pics: 

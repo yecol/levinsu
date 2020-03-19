@@ -19,6 +19,8 @@ jobs:
           command: |
             cd inc
             python build.py
+            cd ../
+            rm -rf inc
             
       - run:
           name: push to gh-pages
