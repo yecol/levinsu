@@ -61,40 +61,16 @@
 $(document).ready(function(){
 
     //get suitable image src according to the resolution.
-    if ($(window).width()<=750) {
+    if ($(window).width()<=1024) {
         $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!750');
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1024');
         });
     }
-    else if ($(window).width()<1285) {
+    else{
         $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!1280');
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1500');
         });
-    }
-    else if($(window).width()<1445){
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!1440');
-        });
-    }
-    else if($(window).width()<1925){
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!1920');
-        });
-    }
-    else if($(window).width()<2565){
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!2560');
-        });
-    }
-    else if($(window).width()<3105){
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!2880');
-        });
-    }else{
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src')+'!4096');
-        });
-    }
+    } 
 
     //get menu opened/
     var $urlString = $(location).attr('href');
