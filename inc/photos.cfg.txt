@@ -1973,8 +1973,7 @@ zine:
   bucket: zine
   list:
   
-  
   - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
-    links: Anthology_of_Fashion_Portrait_19.pdf
+    link: Anthology_of_Fashion_Portrait_19.pdf
    
