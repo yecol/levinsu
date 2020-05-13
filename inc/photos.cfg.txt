@@ -1974,7 +1974,7 @@ zine:
   list:
   
   
-  - display:  / COMING SOON
-    bucket: comingsoon
-    pics: 
-      - welcome.jpg
+  - display: ANTHOLOGY OF FASHION N PORTRAIT
+    type: pdf
+    links: Anthology_of_Fashion_Portrait_19.pdf
+   
