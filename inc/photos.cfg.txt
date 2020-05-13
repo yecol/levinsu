@@ -1975,5 +1975,5 @@ zine:
   
   - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
-    link: 19057100.pdf
+    link: 1.pdf
    
