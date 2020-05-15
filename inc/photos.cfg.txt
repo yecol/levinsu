@@ -1973,14 +1973,14 @@ zine:
   bucket: zine
   list:
   
-  - display: ANTHOLOGY1
-    type: pdf
-    link: 1.pdf
-    
-  - display: ANTHOLOGY2
-    type: pdf
-    link: 19057100.pdf
-    
-  - display: ANTHOLOGY3
+  - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
     link: Anthology_of_Fashion_Portrait_19.pdf
+    
+  - display: ANTHOLOGY OF ARCHITECTURE N SPACE 
+    type: pdf
+    link: Anthology_of_Archi_Space_18.pdf
+    
+  - display: ANTHOLOGY OF STILL LIFE
+    type: pdf
+    link: Anthology_of_Stilllife_18.pdf
