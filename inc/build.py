@@ -17,7 +17,7 @@ else:
 	#dev-env
 	root_dir = "../"
 output_dir = root_dir
-imageBase = "http://cdn1.mo-pic.com"
+imageBase = "http://mo-cdn.b0.aicdn.com"
 filename = "index.html"
 
 curTime = time.localtime()
