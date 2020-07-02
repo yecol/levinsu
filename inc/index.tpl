@@ -56,12 +56,12 @@ $(document).ready(function(){
 
     if ($(window).width()<=1024) {
         $('img').each(function(){
-            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1024');
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'?x-oss-process=image/resize,l_1024');
         });
     }
     else{
         $('img').each(function(){
-            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1500');
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'?x-oss-process=image/resize,l_1500');
         });
     }
 
