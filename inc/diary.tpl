@@ -60,18 +60,6 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-    //get suitable image src according to the resolution.
-    if ($(window).width()<=1024) {
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1024');
-        });
-    }
-    else{
-        $('img').each(function(){
-            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'!1500');
-        });
-    } 
-
     //get menu opened/
     var $urlString = $(location).attr('href');
     var arr = new Array();
