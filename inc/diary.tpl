@@ -60,6 +60,18 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
+
+    if ($(window).width()<=1024) {
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'?x-oss-process=image/resize,l_1024');
+        });
+    }
+    else{
+        $('img').each(function(){
+            $(this).attr('src',$(this).attr('src').substring(0,$(this).attr('src').lastIndexOf("!"))+'?x-oss-process=image/resize,l_1500');
+        });
+    }
+
     //get menu opened/
     var $urlString = $(location).attr('href');
     var arr = new Array();
