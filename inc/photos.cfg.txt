@@ -1983,11 +1983,11 @@ hs-project:
   display: HS PROJECT
   bucket: hs-project
   list:
-  - display: HS PROJECT
+  - display: COMING SOON...
     bucket: hsp
     pics: 
-      - 16571_04001_23597680.jpg
-      - 16571_04002_205799.jpg
+      - index.jpg
+    
 
 
 
