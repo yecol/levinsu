@@ -1985,6 +1985,7 @@ hs-project:
   list:
   - display: COMING SOON...
     bucket: hsp
+    black: 1
     pics: 
       - index.jpg
     
