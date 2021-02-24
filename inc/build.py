@@ -83,8 +83,10 @@ def buildMenu(dict):
 		else:		
 			navString += '\t<li class="nav-list-item" name="'+key+'">\n'
 			navString += '\t\t<a class="l1-a" href="#">'+dict.get(key).get("display")+'</a>\n'
-			
-			navString += '\t\t\t<ul class="nav-list-2">\n'
+			if key=="portrait":
+				navString += '\t\t\t<ul class="nav-list-2 two-col clearfix">\n'	
+			else:
+				navString += '\t\t\t<ul class="nav-list-2 clearfix">\n'
 			
 			for l2dict in dict.get(key).get("list"):
 				if not l2dict.get("type") is None:

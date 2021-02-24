@@ -119,7 +119,6 @@ $(document).ready(function(){
         loadingClass: "loading" // Default: "loading"
     });
 
-
     $('#slides').slidesjs({
         width: 1280,
         height: 853,

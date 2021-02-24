@@ -114,6 +114,10 @@ nav{
 		list-style-type: none;
 		z-index: 600;
 		padding: 11px 0 0 0;
+		width: 310px;
+		&.two-col{
+			width: 610px;
+		}
 
  		li{
  			margin: 0;
@@ -122,6 +126,7 @@ nav{
  			width: 300px;
 			overflow: hidden;
 			text-align:left;
+			float: left;
 
  			a{
  				display: block;
@@ -130,10 +135,17 @@ nav{
 				text-decoration: none;
 				font-size: 12px;
  			}
-
-
  		}
 	}
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 section.full-page{
