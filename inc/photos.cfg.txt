@@ -3504,7 +3504,7 @@ zine:
   
   - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
-    link: Anthology_of_Fashion_Portrait_19.pdf
+    link: AFP21-MOPIC.pdf
     
   - display: ANTHOLOGY OF ARCHITECTURE N SPACE 
     type: pdf
