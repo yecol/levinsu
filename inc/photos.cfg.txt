@@ -3508,7 +3508,7 @@ zine:
     
   - display: ANTHOLOGY OF ARCHITECTURE N SPACE 
     type: pdf
-    link: Anthology_of_Archi_Space_18.pdf
+    link: ANTHOLOGY OF MOPIC ARCHI SPACE 21.pdf
     
   - display: ANTHOLOGY OF STILL LIFE
     type: pdf
