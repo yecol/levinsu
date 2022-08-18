@@ -1,10 +1,10 @@
 index:
   pics:
-    - 22578_03092_14025057.jpg
-    - 20571_08001_040119344.jpg
-    - 21578_020120_22_0032744.jpg
-    - 20571_09001_110120803.jpg
-    - 22578_03093_14025258.jpg
+    - 21578_0901_20026821.jpg
+    - 21578_0902_20026401.jpg
+    - 21578_0903_20026906.jpg
+    - 21578_0904_20027246.jpg
+    - 21578_0905_20029439.jpg
    
 
 diary:
@@ -13,7 +13,7 @@ diary:
   list:
   - date: 2022-06-25
     display: 2022 SUMMER / MOUNTAINSCAPE
-    bucket: 22summer
+    bucket: 2022summer
     pics:  
       - 21578_09001_20029093.jpg
       - 21578_09002_20029096.jpg
@@ -145,7 +145,7 @@ diary:
       
   - date: 2022-03-29
     display: 2022 SPRING / MOUNTAINSCAPE
-    bucket: 22spring
+    bucket: 2022spring
     pics:  
       - 21578_09001_20025844.jpg
       - 21578_09002_20025864.jpg
