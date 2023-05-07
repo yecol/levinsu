@@ -5524,11 +5524,11 @@ zine:
   
   - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
-    link: AFP22-MOPIC.pdf
+    link: MOPIC_OFFICIAL_23.pdf
     
   - display: ANTHOLOGY OF ARCHITECTURE N SPACE 
     type: pdf
-    link: ANTHOLOGY OF MOPIC ARCHI SPACE 21.pdf
+    link: ANTHOLOGY OF MOPIC ARCHI SPACE 22.pdf
     
   - display: ANTHOLOGY OF STILL LIFE
     type: pdf
