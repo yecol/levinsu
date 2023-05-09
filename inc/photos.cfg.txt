@@ -6,6 +6,8 @@ index:
     - HD4.jpg
     - HD5.jpg
     - HD6.jpg
+    - HD7.jpg
+    - HD8.jpg
    
 
 diary:
