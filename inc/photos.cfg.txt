@@ -13,7 +13,7 @@ diary:
   bucket: diary
   list:
   - date: 2023-03-04
-    display: 2023 SPRING / 澳洲THE LAND DOWN UNDER
+    display: 2023 SPRING / 澳洲DOWN UNDER
     bucket: downunder
     pics: 
       - 23061_03001_06038471.jpg
