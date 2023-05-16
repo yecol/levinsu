@@ -4435,7 +4435,7 @@ diary:
       - 20559_05049_22020930.jpg   
 
   - date: 2019-11-09
-    display: 2019 WINTER / 新疆XINJIANG
+    display: 2019 WINTER / 新疆SILK ROAD
     bucket: xinjiang
     pics: 
       - 19991_11001_098307.jpg
