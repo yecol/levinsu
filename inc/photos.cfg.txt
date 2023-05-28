@@ -1601,7 +1601,7 @@ diary:
       - 23578_020452_02038136.jpg
 
   - date: 2022-12-01
-    display: 2022 AUTUMN / MOUNTAINSCAPE
+    display: 2022 AUTUMN / 山景MOUNTAINSCAPE
     bucket: 2022autumn
     pics:  
       - 22578_09001_20036541.jpg
@@ -1756,7 +1756,7 @@ diary:
       - 22578_090150_20036399.jpg
 
   - date: 2022-06-25
-    display: 2022 SUMMER / MOUNTAINSCAPE
+    display: 2022 SUMMER / 山景MOUNTAINSCAPE
     bucket: 2022summer
     pics:  
       - 21578_09001_20029093.jpg
@@ -1888,7 +1888,7 @@ diary:
       - 21578_090127_20029461.jpg
       
   - date: 2022-03-29
-    display: 2022 SPRING / MOUNTAINSCAPE
+    display: 2022 SPRING / 山景MOUNTAINSCAPE
     bucket: 2022spring
     pics:  
       - 21578_09001_20025844.jpg
@@ -2577,7 +2577,7 @@ diary:
       - 21578_090684_20027498.jpg
       
   - date: 2021-12-26
-    display: 2021 WINTER / MOUNTAINSCAPE
+    display: 2021 WINTER / 山景MOUNTAINSCAPE
     bucket: 2021winter
     pics:  
       - 22578_03001_14025037.jpg
@@ -2670,7 +2670,7 @@ diary:
       - 22578_03098_14025384.jpg
   
   - date: 2021-09-26
-    display: 2021 AUTUMN / MOUNTAINSCAPE
+    display: 2021 AUTUMN / 山景MOUNTAINSCAPE
     bucket: 2021autumn
     pics:  
       - 21578_090198_20023472.jpg
@@ -3038,7 +3038,7 @@ diary:
       - 21578_090197_20023463.jpg
       
   - date: 2021-01-26
-    display: 2021 SPRING / MOUNTAINSCAPE
+    display: 2021 SPRING / 山景MOUNTAINSCAPE
     bucket: 2021spring
     pics:  
       - 21578_05001_26_0032043.jpg
@@ -4090,7 +4090,7 @@ diary:
       - 21578_0501047_26_0038120.jpg
       
   - date: 2021-02-01
-    display: 2020 WINTER / MOUNTAINSCAPE
+    display: 2020 WINTER / 山景MOUNTAINSCAPE
     bucket: 2020winter
     pics: 
       - 21578_02001_22_0032043.jpg
@@ -4213,7 +4213,7 @@ diary:
       - 21578_020118_22_0033041.jpg
       
   - date: 2020-10-01
-    display: 2020 AUTUMN / MOUNTAINSCAPE
+    display: 2020 AUTUMN / 山景MOUNTAINSCAPE
     bucket: 2020autumn
     pics: 
       - 20578_10001_09021152.jpg
@@ -4381,7 +4381,7 @@ diary:
       - 20571_070103_300013577.jpg
       
   - date: 2020-05-01
-    display: 2020 SPRING / MOUNTAIN HUANG
+    display: 2020 SPRING / 黄山MOUNTAIN HUANG
     bucket: 2020spring
     pics: 
       - 20559_05001_22020671.jpg
@@ -5354,7 +5354,7 @@ story:
   display: STORY
   bucket: story
   list:
-  - display: 天山廊道的路网 / SILK ROAD
+  - display: 新疆：天山廊道的路网 / SILK ROAD
     bucket: silkroad
     pics: 
       - 19991_11001_098307.jpg
