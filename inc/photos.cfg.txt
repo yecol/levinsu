@@ -2836,7 +2836,7 @@ diary:
       - 21578_090358_20023907.jpg
 
   - date: 2021-04-26
-    display: 2021 SUMMER / MOUNTAINSCAPE
+    display: 2021 SUMMER / 山景MOUNTAINSCAPE
     bucket: 2021summer
     pics:  
       - 21578_09001_20022810.jpg
@@ -5354,7 +5354,7 @@ story:
   display: STORY
   bucket: story
   list:
-  - display: 新疆：天山廊道的路网 / SILK ROAD
+  - display: 新疆 / SILK ROAD
     bucket: silkroad
     pics: 
       - 19991_11001_098307.jpg
