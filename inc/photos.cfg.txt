@@ -15,7 +15,7 @@ diary:
   bucket: diary
   list:
   - date: 2023-03-04
-    display: THE LAND DOWN UNDER / 澳洲. 23
+    display: DOWN UNDER / 澳洲. 23
     bucket: downunder
     pics: 
       - 23061_03001_06038471.jpg
@@ -791,7 +791,7 @@ diary:
       - 23571_010216_23037172.jpg
 
   - date: 2022-09-21
-    display: 2022 AUTUMN / 杭州HANGZHOU
+    display: HANGZHOU / 杭州. 22
     bucket: hangzhou22
     pics:  
       - 22571_09001_21034340.jpg
@@ -1888,7 +1888,7 @@ diary:
       - 21578_090127_20029461.jpg
       
   - date: 2022-03-29
-    display: MOUNTAINSCAPE / 山景.22
+    display: MOUNTAINSCAPE / 山景. 22
     bucket: 2022spring
     pics:  
       - 21578_09001_20025844.jpg
