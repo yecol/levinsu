@@ -4435,7 +4435,7 @@ diary:
       - 20559_05049_22020930.jpg   
   
   - date: 2023-03-04
-    display: ARCHIVE / 归档THE 2010'S
+    display: ARCHIVE / 归档. THE 2010'S
     bucket: 2010s
     pics: 
       - 001_19571_03001_31018210_39.jpg
@@ -5264,7 +5264,7 @@ portrait:
       - 18571_05008_23012193.jpg
       - 18571_05009_23012198.jpg
 
-  - display: ARCHIVE / 归档THE 2010'S
+  - display: ARCHIVE / 归档. THE 2010'S
     bucket: 2010s
     pics: 
       - 001_19571_03001_31018210_39.jpg
@@ -5578,7 +5578,7 @@ ridge:
       - 18578_02002_26012616.jpg
 
 
-  - display: ARCHIVE / 归档THE 2010'S
+  - display: ARCHIVE / 归档. THE 2010'S
     bucket: 2010s
     pics: 
       - 001_0119578_10000_07017523.jpg
