@@ -7452,7 +7452,7 @@ zine:
   
   - display: ANTHOLOGY OF FASHION N PORTRAIT
     type: pdf
-    link: MOPIC_OFFICIAL_23.pdf
+    link: AFP24-MOPIC.pdf
     
   - display: ANTHOLOGY OF ARCHITECTURE N SPACE 
     type: pdf
