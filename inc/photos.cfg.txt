@@ -5579,7 +5579,7 @@ story:
 
   - date: 2024-07-022
     display: SOUTHERN OF GANSU / 甘南
-    bucket: gannan
+    bucket: gansu
     pics: 
       - 24747_07001_22045523.jpg
       - 24747_07002_22045524.jpg
