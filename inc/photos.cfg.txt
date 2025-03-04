@@ -16,7 +16,7 @@ diary:
   list:
   - date: 2024-12-01
     display: MOUNTAINSCAPE / 山景. 24
-    bucket: 24winter
+    bucket: 2024winter
     pics: 
       - 25578_10001_30006321.jpg
       - 25578_10002_30006326.jpg
