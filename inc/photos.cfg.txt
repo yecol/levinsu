@@ -3619,7 +3619,7 @@ story:
       - 24747_07435_22047779.jpg
 
   - date: 2025-06-19
-    display: HEXI CORRIDOR / 河西
+    display: HEXI CORRIDOR / 河西, 丝绸之路
     bucket: hexi
     pics: 
       - 25935_06001_20049821.jpg
