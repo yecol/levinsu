@@ -18,7 +18,7 @@ diary:
   bucket: diary
   list:
   - date: 2025-10-07
-    display: 南京 洛阳 运城 西安
+    display: CITIES / 南京 洛阳 运城 西安 25
     bucket: suyujiingshan
     pics: 
       - 25245_10001_240010203.jpg
@@ -4405,7 +4405,7 @@ ridge:
       - 25245_10098_24054557.jpg
       - 25245_10099_24054559.jpg
 
- - date: 2024-07-022
+  - date: 2024-07-022
     display: SOUTHERN OF GANSU / 甘南
     bucket: gansu
     pics: 
