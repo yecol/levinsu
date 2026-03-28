@@ -36,14 +36,7 @@
         $NAV$
 
 <!-- ====================================BEGIN OF FOOTERFILE==================================== -->
-<footer>
-        <div class="beian desktop-only">
-            <p>
-                <a target="_blank" href="http://www.beian.gov.cn">浙ICP备13015016号</a>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33118102000116">浙公网安备 33118102000116号</a>
-            </p>
-        </div>
-</footer>>
+
 <!--JAVASCRIPT-->
 <script type="text/javascript" src="/assets/js/jquery-1.4.2.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
