@@ -178,7 +178,7 @@ section.full-page .wording p {
   opacity: 0;
   line-height: 14px;
 }
-.beian {
+/*.beian {
   width: 400px;
   margin: 0 auto;
   padding: 10px 0;
@@ -195,7 +195,7 @@ section.full-page .wording p {
   line-height: 20px;
   color: #939393;
   margin: 0 10px;
-}
+} */
 .contact-div {
   display: none;
   position: fixed;
