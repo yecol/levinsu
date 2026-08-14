@@ -4583,6 +4583,6 @@ zine:
     type: pdf
     link: AP24-MOPIC.pdf
 
-  - display:  
+  - display: ""
     type: pdf
     link: LXJ26-MOPIC.pdf
