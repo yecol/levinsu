@@ -4583,10 +4583,6 @@ zine:
     type: pdf
     link: AP24-MOPIC.pdf
 
-  - display: ANTHOLOGY OF ARCHITECTURE AND SPACE 
+  - display:
     type: pdf
-    link: ANTHOLOGY OF MOPIC ARCHI SPACE 22.pdf
-    
-  - display: ANTHOLOGY OF STILL LIFE
-    type: pdf
-    link: Anthology_of_Stilllife_18.pdf
+    link: LXJ26-MOPIC.pdf
