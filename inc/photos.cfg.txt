@@ -10,7 +10,7 @@ index:
     - HD9.jpg
     - HD10.jpg
     - HD11.jpg
-    
+    - HD12.jpg
    
 
 diary:
@@ -18,7 +18,7 @@ diary:
   bucket: diary
   list:
   - date: 2026-08-18
-    display: YUNNAN / 云南 26
+    display: CITIES / 云南 26
     bucket: yunnan
     pics: 
       - 26871_08001_18009004.jpg
@@ -3159,7 +3159,7 @@ story:
       - 254359_10164_07053580.jpg
 
   - date: 2025-09-18
-    display: CHAMA / 茶马古道
+    display: CHAMA / 川西 云南, 茶马古道
     bucket: chama
     pics: 
       - 26871_08012_18009158.jpg
@@ -3873,7 +3873,7 @@ story:
       - 19991_11166_099306.jpg
 
   - date: 2023-03-04
-    display: DOWN UNDER / 澳大利亚
+    display: AUSTRALIA / 澳大利亚
     bucket: downunder
     pics: 
       - 25571_04002_08038471.jpg
